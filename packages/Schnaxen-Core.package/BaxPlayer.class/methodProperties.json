@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"handlesKeyboard:" : "CW 3/1/2016 22:05",
+		"initialize" : "CW 3/1/2016 22:17",
+		"keyDown:" : "CW 3/1/2016 22:32",
+		"loadImage:" : "CW 3/1/2016 22:00",
+		"wantsKeyboardFocus" : "CW 3/1/2016 22:07" } }
