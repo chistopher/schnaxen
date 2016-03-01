@@ -4,4 +4,6 @@ smalltalk:
   - Squeak4.6
 os:
   - linux
-
+before_script:
+  - d=${SMALLTALK_CI_BUILD}/schnaxen/
+  - test -d "$d" || mkdir -p "$d" && cp -R images "$d"
