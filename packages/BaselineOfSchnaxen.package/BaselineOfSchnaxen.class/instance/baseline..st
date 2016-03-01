@@ -8,5 +8,5 @@ baseline: spec
 				package: 'Schnaxen-Core';
 				package: 'Schnaxen-Tests' with: [ spec requires: #('default') ].
 			spec
-				group: 'default' with: #('PoP-Core');
-				group: 'Tests' with: #('PoP-Tests')]
+				group: 'default' with: #('Schnaxen-Core');
+				group: 'Tests' with: #('Schnaxen-Tests')]
