@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSchnaxen",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSchnaxen",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

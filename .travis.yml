@@ -1,0 +1,7 @@
+language: smalltalk
+smalltalk:
+  - Squeak5.0
+  - Squeak4.6
+os:
+  - linux
+

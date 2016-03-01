@@ -1,0 +1,14 @@
+{
+	"category" : "Schnaxen-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"player" ],
+	"name" : "BaxPlayerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
