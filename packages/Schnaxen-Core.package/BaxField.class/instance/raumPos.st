@@ -1,0 +1,4 @@
+accessing
+raumPos
+
+	^ raumPos

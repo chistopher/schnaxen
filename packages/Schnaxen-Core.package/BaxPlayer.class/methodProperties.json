@@ -1,9 +1,16 @@
 {
 	"class" : {
-		 },
+		"clearCache" : "cw 3/2/2016 21:23",
+		"clearimageCache" : "cw 3/2/2016 21:51",
+		"imageFor:" : "cw 3/2/2016 21:19" },
 	"instance" : {
+		"canMoveTo:" : "cw 3/3/2016 00:32",
+		"changeRoomTo:with:" : "cw 3/3/2016 00:02",
+		"field" : "cw 3/2/2016 18:59",
+		"field:" : "cw 3/2/2016 18:59",
 		"handlesKeyboard:" : "CW 3/1/2016 22:05",
 		"initialize" : "CW 3/1/2016 22:17",
-		"keyDown:" : "CW 3/1/2016 22:32",
-		"loadImage:" : "CW 3/1/2016 22:00",
+		"isInField:" : "cw 3/2/2016 22:21",
+		"keyDown:" : "cw 3/3/2016 00:01",
+		"loadImage:" : "cw 3/2/2016 19:36",
 		"wantsKeyboardFocus" : "CW 3/1/2016 22:07" } }

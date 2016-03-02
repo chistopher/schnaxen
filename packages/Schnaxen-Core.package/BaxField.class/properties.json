@@ -1,14 +1,16 @@
 {
 	"category" : "Schnaxen-Core",
 	"classinstvars" : [
-		"imageCache" ],
+		"raumCache" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"field" ],
-	"name" : "BaxPlayer",
+		"bax",
+		"activeRaum",
+		"raumPos" ],
+	"name" : "BaxField",
 	"pools" : [
 		 ],
-	"super" : "ImageMorph",
+	"super" : "Morph",
 	"type" : "normal" }

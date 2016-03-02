@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"add:withSize:at:on:" : "cw 3/2/2016 21:44",
+		"clearRaumCache" : "cw 3/2/2016 21:52",
+		"example1" : "cw 3/2/2016 22:23",
+		"raum1x1" : "cw 3/3/2016 00:23",
+		"raum1x2" : "cw 3/3/2016 00:23",
+		"raum2x1" : "cw 3/3/2016 00:46",
+		"raum2x2" : "cw 3/3/2016 00:22",
+		"raumAt:" : "cw 3/2/2016 23:48" },
+	"instance" : {
+		"activeRaum" : "cw 3/2/2016 21:30",
+		"activeRaum:" : "cw 3/3/2016 00:20",
+		"bax" : "cw 3/2/2016 18:56",
+		"bax:" : "cw 3/2/2016 18:56",
+		"delete" : "cw 3/3/2016 00:08",
+		"initialize" : "cw 3/2/2016 20:20",
+		"raumPos" : "cw 3/2/2016 22:22",
+		"raumPos:" : "cw 3/2/2016 22:22" } }

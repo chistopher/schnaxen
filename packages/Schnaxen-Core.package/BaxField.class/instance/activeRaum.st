@@ -1,0 +1,4 @@
+accessing
+activeRaum
+
+	^ activeRaum
