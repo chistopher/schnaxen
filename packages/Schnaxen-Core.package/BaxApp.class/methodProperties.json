@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"battle" : "CW 3/3/2016 20:37",
+		"battle:" : "CW 3/3/2016 20:37",
+		"battleKeyBindings" : "CW 3/3/2016 20:43",
+		"changeToBattle" : "CW 3/3/2016 20:51",
+		"changeToWorld" : "CW 3/3/2016 20:41",
+		"field" : "CW 3/3/2016 18:35",
+		"field:" : "CW 3/3/2016 18:35",
+		"getFocus" : "CW 3/3/2016 19:32",
+		"handlesKeyboard:" : "CW 3/3/2016 18:27",
+		"initialize" : "CW 3/3/2016 20:57",
+		"keyBindings" : "CW 3/3/2016 20:37",
+		"keyBindings:" : "CW 3/3/2016 20:37",
+		"keyStroke:" : "CW 3/3/2016 20:46",
+		"menuMorph" : "CW 3/3/2016 20:02",
+		"openMenu" : "CW 3/3/2016 20:26",
+		"wantsKeyboardFocus" : "CW 3/3/2016 18:28",
+		"worldKeyBindings" : "CW 3/3/2016 20:48" } }

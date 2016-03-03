@@ -1,5 +1,5 @@
 as yet unclassified
-clearimageCache
+clearImageCache
 
 	^imageCache := Dictionary new
 			

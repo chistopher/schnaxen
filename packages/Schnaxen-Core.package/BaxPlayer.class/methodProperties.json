@@ -1,16 +1,15 @@
 {
 	"class" : {
 		"clearCache" : "cw 3/2/2016 21:23",
-		"clearimageCache" : "cw 3/2/2016 21:51",
+		"clearImageCache" : "CW 3/3/2016 18:08",
 		"imageFor:" : "cw 3/2/2016 21:19" },
 	"instance" : {
 		"canMoveTo:" : "cw 3/3/2016 00:32",
 		"changeRoomTo:with:" : "cw 3/3/2016 00:02",
 		"field" : "cw 3/2/2016 18:59",
 		"field:" : "cw 3/2/2016 18:59",
-		"handlesKeyboard:" : "CW 3/1/2016 22:05",
-		"initialize" : "CW 3/1/2016 22:17",
+		"initialize" : "CW 3/3/2016 18:38",
 		"isInField:" : "cw 3/2/2016 22:21",
-		"keyDown:" : "cw 3/3/2016 00:01",
+		"keyBindings" : "CW 3/3/2016 19:20",
 		"loadImage:" : "cw 3/2/2016 19:36",
-		"wantsKeyboardFocus" : "CW 3/1/2016 22:07" } }
+		"moveInDirection:" : "CW 3/3/2016 19:18" } }

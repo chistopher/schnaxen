@@ -1,0 +1,14 @@
+{
+	"category" : "Schnaxen-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"field" ],
+	"name" : "BaxBattle",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

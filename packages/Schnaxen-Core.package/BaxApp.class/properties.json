@@ -1,0 +1,16 @@
+{
+	"category" : "Schnaxen-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"field",
+		"keyBindings",
+		"battle" ],
+	"name" : "BaxApp",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
