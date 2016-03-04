@@ -1,16 +1,14 @@
 {
 	"category" : "Schnaxen-Core",
 	"classinstvars" : [
-		"raumCache" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bax",
-		"activeRaum",
-		"raumPos",
-		"background" ],
-	"name" : "BaxField",
+		"obstacles",
+		"bild" ],
+	"name" : "BaxRaum",
 	"pools" : [
 		 ],
 	"super" : "Morph",

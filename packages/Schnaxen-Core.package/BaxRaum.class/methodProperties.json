@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addObstacle:withSize:at:" : "CW 3/4/2016 21:40",
+		"bild" : "CW 3/4/2016 21:44",
+		"bild:" : "CW 3/4/2016 21:44",
+		"initialize" : "CW 3/4/2016 19:15",
+		"obstacles" : "CW 3/4/2016 19:06",
+		"obstacles:" : "CW 3/4/2016 19:06" } }
