@@ -5,11 +5,18 @@
 		"imageFor:" : "cw 3/2/2016 21:19" },
 	"instance" : {
 		"canMoveTo:" : "CW 3/4/2016 19:14",
-		"changeRoomTo:with:" : "cw 3/3/2016 00:02",
+		"changeRoomTo:" : "cw 3/5/2016 13:13",
+		"direction" : "cw 3/5/2016 10:47",
+		"direction:" : "cw 3/5/2016 10:47",
 		"field" : "cw 3/2/2016 18:59",
 		"field:" : "cw 3/2/2016 18:59",
-		"initialize" : "CW 3/3/2016 18:38",
+		"initialize" : "cw 3/5/2016 11:26",
+		"interactionArea" : "cw 3/5/2016 11:47",
 		"isInField:" : "cw 3/2/2016 22:21",
-		"keyBindings" : "CW 3/3/2016 19:20",
+		"keyBindings" : "cw 3/5/2016 11:14",
+		"keyToDirection:" : "cw 3/5/2016 10:55",
 		"loadImage:" : "cw 3/2/2016 19:36",
-		"moveInDirection:" : "CW 3/3/2016 19:18" } }
+		"moveInDirection:" : "cw 3/5/2016 11:12",
+		"moveRange" : "cw 3/5/2016 11:20",
+		"moveWithKey:" : "cw 3/5/2016 11:00",
+		"roomExists:" : "cw 3/5/2016 11:12" } }

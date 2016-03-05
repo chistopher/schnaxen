@@ -2,4 +2,4 @@ as yet unclassified
 initialize
 
 	super initialize.
-	self extent: 600@700
+	self extent: 700@700

@@ -1,15 +1,17 @@
 movement
 moveInDirection: aVector
 
-	| newBounds newRaumPos direction |
+	| newBounds newRaumPos |
 	
-	newBounds := self bounds translateBy: aVector.
-	direction := (aVector x clampLow: -1 high: 1)@(aVector y clampLow: -1 high: 1).
+	newBounds := self bounds translateBy: (aVector * self moveRange).
+	self direction:  aVector.
 	newRaumPos := self field raumPos + direction.
-	(self canMoveTo: newBounds)
-		ifTrue: [
-			(self isInField: newBounds)
-				ifTrue: [
-					self bounds: newBounds]
-				ifFalse: [
-					self changeRoomTo: newRaumPos with: direction]]
+
+	(self canMoveTo: newBounds) ifFalse: [^self].
+
+	(self isInField: newBounds) ifTrue: [
+		^self bounds: newBounds].
+
+	(self roomExists: newRaumPos) ifTrue: [
+		self changeRoomTo: newRaumPos.
+		self position: ((self field extent - self extent) * direction negated + self position)]

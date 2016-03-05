@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"obstacles",
-		"interactables",
-		"bild" ],
-	"name" : "BaxRaum",
+		"block",
+		"relativePosition" ],
+	"name" : "BaxInteractable",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

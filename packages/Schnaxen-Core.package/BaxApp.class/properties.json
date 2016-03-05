@@ -8,7 +8,8 @@
 	"instvars" : [
 		"field",
 		"keyBindings",
-		"battle" ],
+		"battle",
+		"infoBar" ],
 	"name" : "BaxApp",
 	"pools" : [
 		 ],

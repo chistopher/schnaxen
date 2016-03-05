@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addInteractableAt:withBlock:" : "cw 3/5/2016 13:27",
 		"addObstacle:withSize:at:" : "CW 3/4/2016 21:40",
+		"addObstacle:withSize:at:withBlock:" : "cw 3/5/2016 13:27",
 		"bild" : "CW 3/4/2016 21:44",
 		"bild:" : "CW 3/4/2016 21:44",
-		"initialize" : "CW 3/4/2016 19:15",
+		"initialize" : "cw 3/5/2016 13:27",
+		"interactables" : "cw 3/5/2016 13:26",
+		"interactables:" : "cw 3/5/2016 13:26",
 		"obstacles" : "CW 3/4/2016 19:06",
 		"obstacles:" : "CW 3/4/2016 19:06" } }

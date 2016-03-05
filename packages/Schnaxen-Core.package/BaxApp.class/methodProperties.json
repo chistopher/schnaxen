@@ -11,11 +11,15 @@
 		"field:" : "CW 3/3/2016 18:35",
 		"getFocus" : "CW 3/3/2016 19:32",
 		"handlesKeyboard:" : "CW 3/3/2016 18:27",
-		"initialize" : "CW 3/3/2016 20:57",
+		"infoBar" : "cw 3/5/2016 12:14",
+		"infoBar:" : "cw 3/5/2016 12:14",
+		"initialize" : "cw 3/5/2016 12:22",
+		"interact" : "cw 3/5/2016 13:26",
 		"keyBindings" : "CW 3/3/2016 20:37",
 		"keyBindings:" : "CW 3/3/2016 20:37",
-		"keyStroke:" : "CW 3/3/2016 20:46",
+		"keyStroke:" : "cw 3/5/2016 12:57",
 		"menuMorph" : "CW 3/3/2016 20:02",
 		"openMenu" : "CW 3/3/2016 20:26",
+		"showStuff:" : "cw 3/5/2016 12:39",
 		"wantsKeyboardFocus" : "CW 3/3/2016 18:28",
-		"worldKeyBindings" : "CW 3/3/2016 20:48" } }
+		"worldKeyBindings" : "cw 3/5/2016 12:44" } }
