@@ -2,4 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "cw 3/5/2016 13:17" } }
+		"app" : "CW 3/6/2016 16:42",
+		"app:" : "CW 3/6/2016 16:42",
+		"attackEnemy:withBax:" : "CW 3/6/2016 16:40",
+		"baxens" : "CW 3/6/2016 15:41",
+		"baxens:" : "CW 3/6/2016 15:41",
+		"controlFighter:" : "CW 3/6/2016 16:40",
+		"enemies" : "CW 3/6/2016 15:15",
+		"enemies:" : "CW 3/6/2016 15:15",
+		"initActors" : "CW 3/6/2016 17:06",
+		"initialize" : "CW 3/6/2016 15:44",
+		"showStats" : "CW 3/6/2016 17:03" } }

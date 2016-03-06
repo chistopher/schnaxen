@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"field" ],
+		"enemies",
+		"baxens",
+		"app" ],
 	"name" : "BaxBattle",
 	"pools" : [
 		 ],

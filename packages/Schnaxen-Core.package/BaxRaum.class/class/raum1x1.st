@@ -1,4 +1,4 @@
-raumCache
+as yet unclassified
 raum1x1
 
 	| raum | 
@@ -9,5 +9,3 @@ raum1x1
 	raum addObstacle: 'stein' withSize: (50@50) at: (500@10).
 	raum addObstacle: 'kaktus' withSize: (80@200) at: (100@450).
 	^raum
-
-	

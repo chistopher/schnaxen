@@ -1,0 +1,17 @@
+{
+	"category" : "Schnaxen-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"maxHP",
+		"currentHP",
+		"dmg",
+		"level" ],
+	"name" : "BaxActor",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

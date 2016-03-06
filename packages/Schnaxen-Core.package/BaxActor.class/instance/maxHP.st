@@ -1,0 +1,4 @@
+accessing
+maxHP
+
+	^ maxHP

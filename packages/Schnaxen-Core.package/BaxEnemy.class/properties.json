@@ -1,0 +1,14 @@
+{
+	"category" : "Schnaxen-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaxEnemy",
+	"pools" : [
+		 ],
+	"super" : "BaxActor",
+	"type" : "normal" }

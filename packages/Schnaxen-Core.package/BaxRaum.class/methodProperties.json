@@ -1,6 +1,11 @@
 {
 	"class" : {
-		 },
+		"clearRaumCache" : "CW 3/6/2016 14:39",
+		"raum0x1" : "CW 3/6/2016 14:37",
+		"raum1x0" : "CW 3/6/2016 14:37",
+		"raum1x1" : "CW 3/6/2016 14:37",
+		"raumAt:" : "CW 3/6/2016 14:38",
+		"roomExists:" : "CW 3/6/2016 14:36" },
 	"instance" : {
 		"addInteractableAt:withBlock:" : "cw 3/5/2016 13:27",
 		"addObstacle:withSize:at:" : "CW 3/4/2016 21:40",

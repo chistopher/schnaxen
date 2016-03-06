@@ -1,8 +1,8 @@
-key bindings
+battle
 changeToBattle
 
 	self field visible: false.
 	self keyBindings: self battleKeyBindings.
-	self battle: (BaxBattle new color: Color brown).
+	self battle: self createBattle.
 	self addMorph: self battle.
 	self battle position: self position

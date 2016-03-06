@@ -4,7 +4,7 @@ showStuff: aString
 	| morph |
 
 	self infoBar removeAllMorphs.
-	morph := StringMorph new.
+	morph := TextMorph new.
 	morph contents: aString.
 	morph position: infoBar position.
 	morph color: Color white.

@@ -12,6 +12,6 @@ moveInDirection: aVector
 	(self isInField: newBounds) ifTrue: [
 		^self bounds: newBounds].
 
-	(self roomExists: newRaumPos) ifTrue: [
+	(BaxRaum roomExists: newRaumPos) ifTrue: [
 		self changeRoomTo: newRaumPos.
 		self position: ((self field extent - self extent) * direction negated + self position)]

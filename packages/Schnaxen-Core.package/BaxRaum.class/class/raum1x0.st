@@ -1,4 +1,4 @@
-raumCache
+as yet unclassified
 raum1x0
 
 	| raum | 
@@ -17,5 +17,3 @@ raum1x0
 
 	raum addObstacle: 'stein' withSize: (80@200) at: (100@450).
 	^raum
-
-	

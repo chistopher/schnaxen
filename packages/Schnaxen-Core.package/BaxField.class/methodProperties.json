@@ -1,14 +1,6 @@
 {
 	"class" : {
-		"clearRaumCache" : "cw 3/2/2016 21:52",
-		"example1" : "cw 3/2/2016 22:23",
-		"raum0x1" : "CW 3/4/2016 21:56",
-		"raum1x0" : "cw 3/5/2016 13:27",
-		"raum1x1" : "CW 3/4/2016 21:39",
-		"raum1x2" : "CW 3/4/2016 21:24",
-		"raum2x1" : "CW 3/4/2016 21:24",
-		"raum2x2" : "CW 3/4/2016 21:39",
-		"raumAt:" : "cw 3/2/2016 23:48" },
+		 },
 	"instance" : {
 		"activeRaum" : "cw 3/2/2016 21:30",
 		"activeRaum:" : "CW 3/4/2016 22:04",
@@ -16,8 +8,8 @@
 		"background:" : "CW 3/4/2016 22:04",
 		"bax" : "cw 3/2/2016 18:56",
 		"bax:" : "cw 3/2/2016 18:56",
-		"changeRoomTo:" : "cw 3/5/2016 13:12",
+		"changeRoomTo:" : "CW 3/6/2016 14:39",
 		"delete" : "cw 3/3/2016 00:08",
-		"initialize" : "cw 3/2/2016 20:20",
+		"initialize" : "CW 3/6/2016 14:52",
 		"raumPos" : "cw 3/2/2016 22:22",
 		"raumPos:" : "cw 3/2/2016 22:22" } }

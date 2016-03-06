@@ -9,7 +9,8 @@
 		"field",
 		"keyBindings",
 		"battle",
-		"infoBar" ],
+		"infoBar",
+		"baxens" ],
 	"name" : "BaxApp",
 	"pools" : [
 		 ],

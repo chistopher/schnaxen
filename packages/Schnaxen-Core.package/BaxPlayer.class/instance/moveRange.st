@@ -1,4 +1,4 @@
 movement
 moveRange
 
-	^ 40
+	^ 20

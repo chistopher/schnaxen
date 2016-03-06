@@ -1,4 +1,4 @@
-key bindings
+battle
 changeToWorld
 
 	self field visible: true.

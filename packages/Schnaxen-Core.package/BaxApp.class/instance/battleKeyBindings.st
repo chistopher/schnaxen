@@ -2,7 +2,7 @@ key bindings
 battleKeyBindings
 
 	^ Dictionary newFrom: {
-	$y		-> 	[self changeToWorld ].
+	$c		-> 	[self battle showStats].
 	$x		-> 	[self changeToWorld ].
 	$v		-> 	[self changeToWorld ].
 	} 
