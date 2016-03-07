@@ -4,8 +4,8 @@ createBaxens
 	self baxens: OrderedCollection new.
 	
 	baxens 
-		add: (BaxFighter new level: 1);
-		add: (BaxFighter new level: 1);
-		add: (BaxFighter new level: 1);
-		add: (BaxFighter new level: 1).
+		add: ((BaxFighter baxNamed: 'bixen') app: self);
+		add: ((BaxFighter baxNamed: 'schnaxen') app: self);
+		add: ((BaxFighter baxNamed: 'schnixel') app: self);
+		add: ((BaxFighter baxNamed: 'baxmeister') app: self)
 	

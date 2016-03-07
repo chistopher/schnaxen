@@ -1,8 +1,11 @@
 key bindings
 battleKeyBindings
 
-	^ Dictionary newFrom: {
-	$c		-> 	[self battle showStats].
-	$x		-> 	[self changeToWorld ].
-	$v		-> 	[self changeToWorld ].
-	} 
+	| dic | 
+	
+	dic := Dictionary newFrom: {
+	$x		-> 	[self battle nextTurn].
+	$v		-> 	[self changeToWorld].
+	}.
+	dic addAll: self battle keyBindings.
+	^dic

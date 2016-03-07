@@ -9,14 +9,9 @@ initialize
 	self color: Color transparent.
 
 	self field: BaxField new.
-	self infoBar: Morph new.
-
 	self addMorph: self field.
-	self addMorph: self infoBar.
 
-	self infoBar position: self bounds topRight.
-	self infoBar extent: (300@ self extent y).
-	self infoBar color: Color black.
-
+	self initInfoBar.
+	
 	self keyBindings: self worldKeyBindings.
 	self activeHand newKeyboardFocus: self.

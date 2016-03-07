@@ -6,10 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"app",
 		"maxHP",
 		"currentHP",
 		"dmg",
-		"level" ],
+		"level",
+		"baxName",
+		"skills",
+		"xp" ],
 	"name" : "BaxActor",
 	"pools" : [
 		 ],

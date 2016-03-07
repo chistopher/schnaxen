@@ -1,0 +1,17 @@
+{
+	"category" : "Schnaxen-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"items",
+		"selectedItems",
+		"levelMorphs",
+		"level" ],
+	"name" : "BaxMenu",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

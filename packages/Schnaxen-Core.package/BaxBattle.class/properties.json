@@ -8,7 +8,9 @@
 	"instvars" : [
 		"enemies",
 		"baxens",
-		"app" ],
+		"app",
+		"currentActor",
+		"menuBar" ],
 	"name" : "BaxBattle",
 	"pools" : [
 		 ],

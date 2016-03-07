@@ -13,7 +13,9 @@ raum1x0
 	raum 
 		addObstacle: 'stein' 
 		withSize: (50@50) at: (500@10) 
-		withBlock: [:app| app showStuff: 'you found the stone'].
+		withBlock: [:app| 
+			app showStuff: 'You found the stone', Character cr, 'The baxens healed AF'.
+			app healAllBaxens].
 
 	raum addObstacle: 'stein' withSize: (80@200) at: (100@450).
 	^raum
