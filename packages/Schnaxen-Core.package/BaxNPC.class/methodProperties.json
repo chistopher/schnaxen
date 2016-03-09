@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"canMoveTo:" : "CW 3/9/2016 19:21",
+		"direction" : "CW 3/9/2016 18:17",
+		"direction:" : "CW 3/9/2016 18:17",
+		"directions" : "CW 3/9/2016 18:34",
+		"initialize" : "CW 3/9/2016 19:11",
+		"loadImage:" : "CW 3/9/2016 18:23",
+		"moveInDirection:" : "CW 3/9/2016 18:26",
+		"moveRange" : "CW 3/9/2016 18:24",
+		"room" : "CW 3/9/2016 19:05",
+		"room:" : "CW 3/9/2016 19:05",
+		"step" : "CW 3/9/2016 19:23",
+		"stepTime" : "CW 3/9/2016 19:23" } }

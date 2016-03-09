@@ -9,7 +9,7 @@ moveInDirection: aVector
 
 	(self canMoveTo: newBounds) ifFalse: [^self].
 
-	(self isInField: newBounds) ifTrue: [
+	(self field contains: newBounds) ifTrue: [
 		^self bounds: newBounds].
 
 	(BaxRaum roomExists: newRaumPos) ifTrue: [

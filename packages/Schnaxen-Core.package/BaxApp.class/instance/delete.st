@@ -3,4 +3,5 @@ delete
 	
 	"field doesnt get garbage collected if activeRaum stores it as owner"
 	super delete.
-	self field removeMorph: self field activeRaum 
+	self field removeMorph: self field activeRaum.
+	self field activeRaum obstacles remove: self field bax.

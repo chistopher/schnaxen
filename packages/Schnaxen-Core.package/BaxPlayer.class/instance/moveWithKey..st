@@ -1,4 +1,4 @@
 movement
 moveWithKey: aSymbol
 
-	self moveInDirection: (self keyToDirection: aSymbol)
+	self moveInDirection: (self keyDirections at: aSymbol)

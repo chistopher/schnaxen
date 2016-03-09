@@ -4,10 +4,12 @@ raum1x0
 	| raum | 
 
 	raum := BaxRaum new color: Color white.
-	raum addObstacle: 'haus' withSize: (400@300) at: (200@200).
-	raum addInteractableAt: 400@490 withBlock: [:app| 
+	raum addObstacle: 'haus2' withSize: (200@200) at: (200@200).
+	raum addInteractableAt: 300@390 withBlock: [:app| 
 		app field changeRoomTo: 378@378.
 		app field bax position: 200@200 + app position].
+
+	raum addNPC: 'rick' at: 100@100 withBlock: []. 
 
 	raum addObstacle: 'stein' withSize: (50@50) at: (438@500) withBlock: [:app| app showStuff: 'fuck u wrong'].
 	raum 
