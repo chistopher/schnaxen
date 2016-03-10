@@ -1,5 +1,5 @@
 as yet unclassified
-imageFor: aFileName
+imageFor: anImageName
 
 	| pathPrefix slash |
 
@@ -7,6 +7,6 @@ imageFor: aFileName
 	pathPrefix := '.', slash ,'schnaxen', slash, 'images', slash.
 
 	imageCache ifNil: [imageCache := Dictionary new].
-	^imageCache at: aFileName ifAbsentPut: [
-		Form fromFileNamed: pathPrefix, aFileName]
+	^imageCache at: anImageName ifAbsentPut: [
+		Form fromFileNamed: pathPrefix, anImageName, '.png']
 			

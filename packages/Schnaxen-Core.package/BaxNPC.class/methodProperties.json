@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"canMoveTo:" : "CW 3/9/2016 19:21",
+		"defaultImage" : "CW 3/10/2016 20:17",
 		"direction" : "CW 3/9/2016 18:17",
 		"direction:" : "CW 3/9/2016 18:17",
 		"directions" : "CW 3/9/2016 18:34",
-		"initialize" : "CW 3/9/2016 19:11",
-		"loadImage:" : "CW 3/9/2016 18:23",
+		"initialize" : "CW 3/10/2016 20:18",
 		"moveInDirection:" : "CW 3/9/2016 18:26",
 		"moveRange" : "CW 3/9/2016 18:24",
 		"room" : "CW 3/9/2016 19:05",

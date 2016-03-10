@@ -1,4 +1,4 @@
 as yet unclassified
 defaultImage
 
-	^(BaxPlayer imageFor: 'stein.png') scaledToSize: 100@100.
+	^ BaxPlayer imageFor: 'bax-1x0'
