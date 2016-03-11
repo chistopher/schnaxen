@@ -9,7 +9,11 @@ raum1x0
 		app field changeRoomTo: 378@378.
 		app field bax position: 200@200 + app position].
 
-	raum addNPC: 'rick' at: 100@100 withBlock: []. 
+	raum addNPC: 'rick' at: 50@50 withBlock: []. 
+	raum addNPC: 'rick' at: 200@50 withBlock: []. 
+	raum addNPC: 'rick' at: 300@100 withBlock: []. 
+	raum addNPC: 'rick' at: 150@150 withBlock: []. 
+	raum addNPC: 'rick' at: 550@300 withBlock: []. 
 
 	raum addObstacle: 'stein' withSize: (50@50) at: (438@500) withBlock: [:app| app showStuff: 'fuck u wrong'].
 	raum 

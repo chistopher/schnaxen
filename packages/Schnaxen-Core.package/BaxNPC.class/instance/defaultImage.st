@@ -1,4 +1,4 @@
 as yet unclassified
 defaultImage
 
-	^(BaxPlayer imageFor: 'rick') scaledToSize: 50@50
+	^(BaxPlayer imageFor: 'bax0x1') scaledToSize: 50@50

@@ -6,6 +6,7 @@ moveInDirection: aVector
 	newBounds := self bounds translateBy: (aVector * self moveRange).
 	self direction:  aVector.
 	newRaumPos := self field raumPos + direction.
+	self image: ((BaxPlayer imageFor: 'bax', aVector x, 'x', aVector y) scaledToSize: self extent).
 
 	(self canMoveTo: newBounds) ifFalse: [^self].
 
