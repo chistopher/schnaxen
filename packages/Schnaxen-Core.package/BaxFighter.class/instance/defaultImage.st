@@ -1,4 +1,4 @@
 as yet unclassified
 defaultImage
 
-	^ BaxPlayer imageFor: 'bax-1x0'
+	^ BaxResources image: 'bax-1x0' size: 100@100

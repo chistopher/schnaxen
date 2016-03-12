@@ -1,15 +1,14 @@
 {
 	"category" : "Schnaxen-Core",
 	"classinstvars" : [
-		 ],
+		"imageCache" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"direction",
-		"room" ],
-	"name" : "BaxNPC",
+		 ],
+	"name" : "BaxResources",
 	"pools" : [
 		 ],
-	"super" : "BaxObject",
+	"super" : "Object",
 	"type" : "normal" }

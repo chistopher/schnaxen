@@ -5,7 +5,7 @@ rick: aName
 	
 	enemy := self new.
 	^enemy 
-		image: (BaxPlayer imageFor: 'rick');
+		image: (BaxResources image: 'rick' size: 50@50);
 		baxName: aName;
 		level: 1;
 		maxHP: 3;

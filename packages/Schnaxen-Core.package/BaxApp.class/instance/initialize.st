@@ -5,11 +5,12 @@ initialize
 	
 	self createBaxens.
 	
-	self extent: 700@700.
-	self color: Color transparent.
+	self goFullScreen.
+	self color: Color white.
 
 	self field: BaxField new.
 	self addMorph: self field.
+	self field position: self position.
 
 	self initInfoBar.
 	

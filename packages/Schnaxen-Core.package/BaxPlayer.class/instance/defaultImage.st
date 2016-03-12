@@ -1,4 +1,4 @@
 initialization
 defaultImage
 
-	^ (BaxPlayer imageFor: 'bax1x0') scaledToSize: 50@50
+	^ BaxResources image: 'bax1x0'size: 50@50

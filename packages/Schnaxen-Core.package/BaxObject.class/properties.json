@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"direction",
-		"room" ],
-	"name" : "BaxNPC",
+		"block",
+		"baxName" ],
+	"name" : "BaxObject",
 	"pools" : [
 		 ],
-	"super" : "BaxObject",
+	"super" : "ImageMorph",
 	"type" : "normal" }

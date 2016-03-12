@@ -1,5 +1,5 @@
 as yet unclassified
-raum378x378
+raum30x98
 
 	| raum | 
 
@@ -19,6 +19,9 @@ raum378x378
 	"Mauer unten"
 	(0 to: 13) do: [:index|
 		raum add: 'mauer_vorn' sized: (50@50) at: (50*index@650)].
+
+	raum add: 'rick' sized: 100@100 at: 50@50 withBlock: [:app| app changeToBattleWith: (BaxEnemy rick: 'MegaRick')].
+	raum add: 'rick' sized: 100@100 at: 500@100 withBlock: [:app| app changeToBattleWith: (BaxEnemy rick: 'MegaRick')].
 	
 
 	raum add: 'stein' sized: (50@50) at: (325@325) withBlock: [:app| 

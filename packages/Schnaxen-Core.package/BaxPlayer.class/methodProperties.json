@@ -6,14 +6,14 @@
 	"instance" : {
 		"canMoveTo:" : "CW 3/4/2016 19:14",
 		"changeRoomTo:" : "cw 3/5/2016 13:13",
-		"defaultImage" : "CW 3/10/2016 20:20",
+		"defaultImage" : "cw 3/11/2016 19:34",
 		"field" : "CW 3/9/2016 19:11",
 		"field:" : "CW 3/9/2016 19:11",
 		"initialize" : "CW 3/10/2016 20:18",
 		"interactionArea" : "CW 3/9/2016 18:16",
 		"keyBindings" : "cw 3/5/2016 11:14",
 		"keyDirections" : "CW 3/9/2016 18:36",
-		"moveInDirection:" : "CW 3/11/2016 16:17",
+		"moveInDirection:" : "cw 3/11/2016 19:34",
 		"moveRange" : "CW 3/8/2016 20:02",
 		"moveWithKey:" : "CW 3/9/2016 18:28",
 		"step" : "CW 3/9/2016 19:02" } }

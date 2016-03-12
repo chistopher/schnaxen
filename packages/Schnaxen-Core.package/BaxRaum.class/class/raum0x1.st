@@ -3,6 +3,6 @@ raum0x1
 
 	| raum | 
 
-	raum := BaxRaum new bild: (BaxPlayer imageFor: 'see').
-	raum addObstacle: 'kaktus' withSize: (400@400) at: (200@200).
+	raum := BaxRaum new bild: (BaxResources image: 'see' size: 700@700).
+	raum add: 'kaktus' sized: (400@400) at: (200@200).
 	^raum
