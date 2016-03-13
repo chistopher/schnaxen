@@ -6,7 +6,7 @@ menuMorph
 	menu 
 		defaultTarget: self;
 		addList: {
-		{'battle'.					#changeToBattle}.
+		{'battle'.					#field}.
 		{'find again (g)'.				#field}.
 		{'set search string (h)'.		#field}.
 		#-.

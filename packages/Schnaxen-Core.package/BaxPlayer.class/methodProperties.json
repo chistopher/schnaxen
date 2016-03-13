@@ -1,19 +1,17 @@
 {
 	"class" : {
-		"clearCache" : "cw 3/2/2016 21:23",
 		"clearImageCache" : "CW 3/3/2016 18:08",
 		"imageFor:" : "CW 3/10/2016 20:16" },
 	"instance" : {
 		"canMoveTo:" : "CW 3/4/2016 19:14",
 		"changeRoomTo:" : "cw 3/5/2016 13:13",
-		"defaultImage" : "cw 3/12/2016 23:17",
+		"defaultImage" : "cw 3/13/2016 19:20",
 		"field" : "CW 3/9/2016 19:11",
 		"field:" : "CW 3/9/2016 19:11",
-		"initialize" : "CW 3/10/2016 20:18",
+		"initialize" : "cw 3/13/2016 13:35",
 		"interactionArea" : "cw 3/12/2016 21:54",
 		"keyBindings" : "cw 3/5/2016 11:14",
 		"keyDirections" : "CW 3/9/2016 18:36",
-		"moveInDirection:" : "cw 3/11/2016 19:34",
-		"moveRange" : "cw 3/13/2016 00:51",
+		"moveInDirection:" : "cw 3/13/2016 14:19",
 		"moveWithKey:" : "CW 3/9/2016 18:28",
 		"step" : "CW 3/9/2016 19:02" } }

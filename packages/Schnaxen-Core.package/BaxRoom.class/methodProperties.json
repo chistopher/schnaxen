@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"clearRoomCache" : "cw 3/13/2016 11:36",
+		"room0x1" : "cw 3/13/2016 19:21",
+		"room1x0" : "cw 3/13/2016 15:53",
+		"room1x1" : "cw 3/13/2016 11:35",
+		"room30x98" : "cw 3/13/2016 11:35",
+		"room378x378" : "cw 3/13/2016 11:35",
+		"roomAt:" : "cw 3/13/2016 11:36",
+		"roomExists:" : "cw 3/13/2016 11:32" },
+	"instance" : {
+		"add:sized:at:" : "cw 3/13/2016 19:20",
+		"add:sized:at:withBlock:" : "cw 3/11/2016 20:33",
+		"addNPC:at:" : "cw 3/13/2016 19:21",
+		"addNPC:at:withBlock:" : "cw 3/11/2016 20:33",
+		"bild" : "CW 3/4/2016 21:44",
+		"bild:" : "CW 3/4/2016 21:44",
+		"contains:" : "cw 3/13/2016 19:21",
+		"initialize" : "cw 3/5/2016 13:27",
+		"interactables" : "cw 3/5/2016 13:26",
+		"interactables:" : "cw 3/5/2016 13:26",
+		"obstacles" : "CW 3/4/2016 19:06",
+		"obstacles:" : "CW 3/4/2016 19:06" } }

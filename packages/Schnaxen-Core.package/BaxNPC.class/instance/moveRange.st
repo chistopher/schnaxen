@@ -1,4 +1,4 @@
 as yet unclassified
 moveRange
 
-	^ 25
+	^ self extent // 2

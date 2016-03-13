@@ -1,4 +1,4 @@
 initialization
 defaultImage
 
-	^ BaxResources image: 'bax1x0'size: BaxField fieldSize/20
+	^ BaxResources image: 'bax1x0' size: BaxApp appSize / (32@18)

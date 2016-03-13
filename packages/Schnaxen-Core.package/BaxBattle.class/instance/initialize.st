@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self color: Color gray.
-	self extent: 700@700.
+	self extent: BaxApp appSize.
 
 	self createMenu.
 		

@@ -1,9 +1,9 @@
 as yet unclassified
-raum378x378
+room378x378
 
 	| raum | 
 
-	raum := BaxRaum new color: Color white.
+	raum := BaxRoom new color: Color white.
 	"Mauer oben"
 	(0 to: 13) do: [:index|
 		raum add: 'mauer_vorn' sized: (50@50) at: (50*index@0)].

@@ -8,7 +8,7 @@
 		"app:" : "CW 3/6/2016 16:42",
 		"baxens" : "CW 3/6/2016 15:41",
 		"baxens:" : "CW 3/6/2016 15:41",
-		"createMenu" : "CW 3/7/2016 22:36",
+		"createMenu" : "cw 3/13/2016 11:54",
 		"currentActor" : "CW 3/7/2016 13:46",
 		"currentActor:" : "CW 3/7/2016 13:46",
 		"doSkill:on:" : "CW 3/7/2016 23:18",
@@ -21,7 +21,7 @@
 		"fighterActs" : "CW 3/7/2016 14:48",
 		"fighterTurn:" : "CW 3/7/2016 23:16",
 		"initActors" : "CW 3/7/2016 19:41",
-		"initialize" : "CW 3/7/2016 22:33",
+		"initialize" : "cw 3/13/2016 19:19",
 		"keyBindings" : "cw 3/8/2016 14:08",
 		"livingEnemies" : "CW 3/7/2016 17:15",
 		"livingFighter" : "CW 3/7/2016 17:15",
@@ -31,4 +31,5 @@
 		"nextTurn" : "CW 3/7/2016 14:51",
 		"openMenu" : "CW 3/7/2016 23:28",
 		"showStats" : "CW 3/7/2016 15:15",
+		"startBattle" : "cw 3/13/2016 11:05",
 		"win" : "CW 3/7/2016 23:20" } }

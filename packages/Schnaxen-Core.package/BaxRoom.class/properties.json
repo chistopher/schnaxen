@@ -1,18 +1,15 @@
 {
 	"category" : "Schnaxen-Core",
 	"classinstvars" : [
-		"aspectRatio",
-		"appSize" ],
+		"roomCache" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"field",
-		"keyBindings",
-		"battle",
-		"infoBar",
-		"baxens" ],
-	"name" : "BaxApp",
+		"obstacles",
+		"interactables",
+		"bild" ],
+	"name" : "BaxRoom",
 	"pools" : [
 		 ],
 	"super" : "Morph",

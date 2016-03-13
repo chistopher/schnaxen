@@ -8,7 +8,8 @@ addNPC: aName at: aPosition
 	self addMorphBack: NPC.
 	self obstacles add: NPC.
 	^NPC 
-		position: (BaxField fieldSize * aPosition // 100) + self position;
+		position: ((BaxApp appSize * aPosition / (BaxApp aspectRatio *10)) + self position);
 		baxType: aName;
+		image: NPC defaultImage;
 		startStepping.
 

@@ -1,16 +1,14 @@
 {
 	"category" : "Schnaxen-Core",
 	"classinstvars" : [
-		"raumCache" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"obstacles",
-		"interactables",
-		"bild" ],
-	"name" : "BaxRaum",
+		 ],
+	"name" : "BaxVerticalMenu",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "BaxMenu",
 	"type" : "normal" }

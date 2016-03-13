@@ -2,7 +2,7 @@ movement
 moveInDirection: aVector
 
 	| newBounds newRaumPos |
-	
+		
 	newBounds := self bounds translateBy: (aVector * self moveRange).
 	self direction:  aVector.
 	newRaumPos := self field raumPos + direction.
@@ -13,6 +13,6 @@ moveInDirection: aVector
 	(self field contains: newBounds) ifTrue: [
 		^self bounds: newBounds].
 
-	(BaxRaum roomExists: newRaumPos) ifTrue: [
+	(BaxRoom roomExists: newRaumPos) ifTrue: [
 		self changeRoomTo: newRaumPos.
 		self position: ((self field extent - self extent) * direction negated + self position)]

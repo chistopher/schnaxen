@@ -1,5 +1,5 @@
 as yet unclassified
 changeRoomTo: aPos
 
-	self activeRaum: (BaxRaum raumAt: aPos).
+	self activeRaum: (BaxRoom roomAt: aPos).
 	self raumPos: aPos 

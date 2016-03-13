@@ -1,4 +1,4 @@
-as yet unclassified
+debugging
 showMoreStuff: aString
 
 	self infoBar submorphs first contents: 

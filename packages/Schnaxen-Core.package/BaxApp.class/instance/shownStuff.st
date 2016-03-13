@@ -1,4 +1,4 @@
-as yet unclassified
+debugging
 shownStuff
 
 	^self infoBar submorphs first contents

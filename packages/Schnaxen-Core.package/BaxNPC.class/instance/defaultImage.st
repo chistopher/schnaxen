@@ -1,4 +1,4 @@
 as yet unclassified
 defaultImage
 
-	^BaxResources image: 'bax0x1' size: BaxField fieldSize/20
+	^BaxResources image: self baxType, '0x1' size: BaxApp appSize / (32@18)

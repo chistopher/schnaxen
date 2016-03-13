@@ -5,7 +5,7 @@ punk: aName
 	
 	enemy := self new.
 	^enemy 
-		image: (BaxResources image: 'punk' size: 50@50);
+		image: (BaxResources image: 'punk1x0' size: 100@100);
 		type: 'punk';
 		baxName: aName;
 		level: 1;

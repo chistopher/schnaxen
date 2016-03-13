@@ -1,19 +1,14 @@
 {
 	"category" : "Schnaxen-Core",
 	"classinstvars" : [
-		"aspectRatio",
-		"appSize" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"field",
-		"keyBindings",
-		"battle",
-		"infoBar",
-		"baxens" ],
-	"name" : "BaxApp",
+		 ],
+	"name" : "BaxHorizontalMenu",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "BaxMenu",
 	"type" : "normal" }
