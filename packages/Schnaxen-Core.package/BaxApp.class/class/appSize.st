@@ -1,4 +1,4 @@
 accessing
 appSize
 
-	^ appSize
+	^ appSize ifNil: [self minAppSize]

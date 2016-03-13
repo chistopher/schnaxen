@@ -3,6 +3,7 @@ initInfoBar
 
 	| textMorph |
 	
+	self infoBar ifNotNil: [self removeMorph: self infoBar].
 	self infoBar: Morph new.
 	self addMorph: self infoBar.
 	

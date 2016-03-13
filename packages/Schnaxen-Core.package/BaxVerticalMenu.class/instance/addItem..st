@@ -6,8 +6,8 @@ addItem: anAssociation
 	morph := Morph new.
 	morph 
 		color: Color gray;
-		extent: 70@15;
-		position: (self levelMorphs last size * 75 + 5)@(self level-1 * 20 + 25)+ self position.
-	morph addMorph: (StringMorph new contents: anAssociation key; position: morph position +1; color: Color white).
+		extent: self itemExtent;
+		position: (self itemExtent + self gap) * ((self level-1) @ (self levelMorphs last size)) + self position + self gap.
+	morph addMorph: (StringMorph new contents: anAssociation key; center: morph center; color: Color white).
 	self addMorph: morph.
 	(self levelMorphs at: self level) add: morph. 

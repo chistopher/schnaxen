@@ -1,0 +1,4 @@
+geometry
+visibleItems
+
+	^ 5

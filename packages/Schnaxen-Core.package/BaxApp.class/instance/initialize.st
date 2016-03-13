@@ -4,17 +4,14 @@ initialize
 	super initialize.
 	
 	self 
-		createBaxens;
 		goFullScreen;
-		computeAppSize;
-		color: Color black.
-
-	self field: BaxField new.
-	self addMorph: self field.
-	self field position: (self extent - BaxApp appSize) / 2 + self position.
-	self field extent: BaxApp appSize.
-
-	self initInfoBar.
+		color: Color black;
+		createMainMenu.
 	
-	self keyBindings: self worldKeyBindings.
-	self activeHand newKeyboardFocus: self.
+	"change resolution and set useableBounds"
+	BaxApp appSize = BaxApp minAppSize 
+		ifTrue: [self openResolutionMenu]
+		ifFalse: [self mainMenu bounds: BaxApp useableBounds. self openMainMenu].
+		
+	self keyBindings: self mainMenuKeyBindings.
+	self getFocus.

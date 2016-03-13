@@ -2,7 +2,8 @@
 	"category" : "Schnaxen-Core",
 	"classinstvars" : [
 		"aspectRatio",
-		"appSize" ],
+		"appSize",
+		"useableBounds" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -11,7 +12,8 @@
 		"keyBindings",
 		"battle",
 		"infoBar",
-		"baxens" ],
+		"baxens",
+		"mainMenu" ],
 	"name" : "BaxApp",
 	"pools" : [
 		 ],

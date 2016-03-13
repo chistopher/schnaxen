@@ -2,5 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addItem:" : "cw 3/13/2016 11:51",
-		"addTitle:" : "cw 3/13/2016 11:51" } }
+		"addItem:" : "CW 3/13/2016 21:17",
+		"addTitle:" : "cw 3/13/2016 11:51",
+		"fromList:withDepth:" : "CW 3/13/2016 20:55",
+		"gap" : "CW 3/13/2016 21:39",
+		"itemExtent" : "CW 3/13/2016 21:14",
+		"maxLevel" : "CW 3/13/2016 21:06",
+		"maxLevel:" : "CW 3/13/2016 21:06",
+		"selectItem:" : "CW 3/13/2016 21:31",
+		"visibleItems" : "CW 3/13/2016 20:58" } }

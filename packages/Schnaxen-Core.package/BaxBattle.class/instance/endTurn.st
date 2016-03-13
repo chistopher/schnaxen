@@ -1,4 +1,4 @@
-menu
+turns
 endTurn
 
 	self livingFighter ifEmpty: [^self lose].
