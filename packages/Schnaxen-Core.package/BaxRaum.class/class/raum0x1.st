@@ -3,6 +3,6 @@ raum0x1
 
 	| raum | 
 
-	raum := BaxRaum new bild: (BaxResources image: 'see' size: 700@700).
-	raum add: 'kaktus' sized: (400@400) at: (200@200).
+	raum := BaxRaum new bild: (BaxResources image: 'see' size: BaxField fieldSize).
+	raum add: 'kaktus' sized: (50@50) at: (25@25).
 	^raum

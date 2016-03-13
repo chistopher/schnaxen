@@ -1,4 +1,4 @@
 movement
 moveRange
 
-	^ 25
+	^ self extent x / 2

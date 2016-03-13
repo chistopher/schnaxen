@@ -7,7 +7,6 @@ initialize
 	
 	player := BaxPlayer new.
 	self 
-		extent: 700@700;
 		addMorph: player;
 		bax: player;
 		activeRaum: (BaxRaum raumAt: (1@1));

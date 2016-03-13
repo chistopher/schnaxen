@@ -1,12 +1,12 @@
 as yet unclassified
-rick: aName
+punk: aName
 
 	| enemy | 
 	
 	enemy := self new.
 	^enemy 
-		image: (BaxResources image: 'rick' size: 50@50);
-		type: 'rick';
+		image: (BaxResources image: 'punk' size: 50@50);
+		type: 'punk';
 		baxName: aName;
 		level: 1;
 		maxHP: 3;

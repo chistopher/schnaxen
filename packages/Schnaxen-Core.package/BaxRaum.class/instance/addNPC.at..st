@@ -8,6 +8,7 @@ addNPC: aName at: aPosition
 	self addMorphBack: NPC.
 	self obstacles add: NPC.
 	^NPC 
-		position: (self position + aPosition);
+		position: (BaxField fieldSize * aPosition // 100) + self position;
+		baxType: aName;
 		startStepping.
 

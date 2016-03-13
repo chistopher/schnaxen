@@ -1,4 +1,4 @@
 interaction
 interactionArea
 	
-	^ (self bounds insetBy: 10) translateBy: (self direction * 40) 
+	^ (self bounds insetBy: (self extent x * 0.25)) translateBy: (self direction * (self extent * 0.75)) 

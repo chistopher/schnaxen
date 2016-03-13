@@ -1,17 +1,17 @@
 {
 	"class" : {
 		"clearRaumCache" : "CW 3/6/2016 14:39",
-		"raum0x1" : "cw 3/11/2016 20:41",
-		"raum1x0" : "cw 3/11/2016 21:56",
-		"raum1x1" : "cw 3/11/2016 20:25",
+		"raum0x1" : "cw 3/12/2016 23:18",
+		"raum1x0" : "cw 3/13/2016 00:53",
+		"raum1x1" : "cw 3/12/2016 22:09",
 		"raum30x98" : "cw 3/12/2016 14:05",
 		"raum378x378" : "cw 3/11/2016 21:51",
 		"raumAt:" : "CW 3/6/2016 14:38",
 		"roomExists:" : "CW 3/6/2016 14:36" },
 	"instance" : {
-		"add:sized:at:" : "cw 3/11/2016 20:12",
+		"add:sized:at:" : "cw 3/12/2016 23:18",
 		"add:sized:at:withBlock:" : "cw 3/11/2016 20:33",
-		"addNPC:at:" : "cw 3/11/2016 20:23",
+		"addNPC:at:" : "cw 3/13/2016 00:45",
 		"addNPC:at:withBlock:" : "cw 3/11/2016 20:33",
 		"bild" : "CW 3/4/2016 21:44",
 		"bild:" : "CW 3/4/2016 21:44",

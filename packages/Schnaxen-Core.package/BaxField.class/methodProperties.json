@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"fieldSize" : "cw 3/12/2016 23:18",
+		"fieldSize:" : "cw 3/12/2016 23:16" },
 	"instance" : {
 		"activeRaum" : "cw 3/2/2016 21:30",
 		"activeRaum:" : "CW 3/9/2016 19:29",
@@ -10,6 +11,6 @@
 		"bax:" : "cw 3/2/2016 18:56",
 		"changeRoomTo:" : "CW 3/6/2016 14:39",
 		"contains:" : "CW 3/9/2016 18:20",
-		"initialize" : "CW 3/10/2016 20:10",
+		"initialize" : "cw 3/12/2016 15:26",
 		"raumPos" : "cw 3/2/2016 22:22",
 		"raumPos:" : "cw 3/2/2016 22:22" } }

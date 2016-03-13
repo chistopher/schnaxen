@@ -6,6 +6,7 @@ rick: aName level: aNumber
 	enemy := self new.
 	^enemy 
 		image: (BaxResources image: 'rick'size: 100@100);
+		type: 'rick';
 		baxName: aName, '_lvl', aNumber;
 		level: aNumber;
 		xp: 1 + aNumber;
