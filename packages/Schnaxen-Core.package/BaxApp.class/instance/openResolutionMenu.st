@@ -1,7 +1,7 @@
 menu
 openResolutionMenu
 
-	| resolutions current menuItems |
+	| resolutions current menuItems menu |
 	
 	resolutions := OrderedCollection new.
 	current := BaxApp minAppSize.
@@ -14,10 +14,19 @@ openResolutionMenu
 			BaxApp appSize: each. 
 			BaxApp useableBounds: (((self extent - each) / 2) extent: each).
 			BaxRoom clearRoomCache. "coz rooms are just 4 one resolution"
-			self mainMenu clearMenu; bounds: BaxApp useableBounds.
-			self openMainMenu])].
+			self mainMenu bounds: BaxApp useableBounds.
+			self removeMorph: self openWindows last.
+			self openWindows removeLast.
+			self fillMainMenu.
+			self activateMainMenu.
+			])].
 	
-	self mainMenu fromList: menuItems withDepth: 1
+	self hideAllSubmorphs.
+	menu := BaxVerticalMenu new 
+		bounds: self bounds; 
+		fromList: menuItems withDepth: 1.
+	self addMorph: menu.
+	self openWindows add: menu.
 
  	
 						

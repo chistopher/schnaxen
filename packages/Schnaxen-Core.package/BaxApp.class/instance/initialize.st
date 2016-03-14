@@ -6,12 +6,12 @@ initialize
 	self 
 		goFullScreen;
 		color: Color black;
-		createMainMenu.
+		createMainMenu;
+		fillMainMenu.
+		
 	
-	"change resolution and set useableBounds"
 	BaxApp appSize = BaxApp minAppSize 
-		ifTrue: [self openResolutionMenu]
-		ifFalse: [self mainMenu bounds: BaxApp useableBounds. self openMainMenu].
+		ifTrue: [self openResolutionMenu].
 		
 	self keyBindings: self mainMenuKeyBindings.
 	self getFocus.

@@ -6,7 +6,7 @@ keyStroke: anEvent
 	| key |
 	
 	key := anEvent keyCharacter.
-	(self keyBindings at: key ifAbsent: []) value.
+	self openWindows ifNotNil: [self openWindows ifNotEmpty: [(self openWindows last keyBindings at: key ifAbsent: []) value.]]
 	
 			
 

@@ -1,16 +1,16 @@
 menu
-openMainMenu
+openInGameMenu
 
 	| menuItems |
 
 	menuItems := OrderedCollection new.
 	menuItems 
-		add: ('start game' -> [self startGame]);
+		add: ('mainMenu' -> [self openMainMenu]);
 		add: ('change resolution' -> [self mainMenu bounds: self bounds; clearMenu. self openResolutionMenu]);
 		add: ('exit' -> [self delete]).
 
 	
-	self mainMenu fromList: menuItems withDepth: 1
+	self openWindows add: (self mainMenu fromList: menuItems withDepth: 1)
 
 	
 

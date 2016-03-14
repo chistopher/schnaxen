@@ -13,7 +13,8 @@
 		"battle",
 		"infoBar",
 		"baxens",
-		"mainMenu" ],
+		"mainMenu",
+		"openWindows" ],
 	"name" : "BaxApp",
 	"pools" : [
 		 ],
