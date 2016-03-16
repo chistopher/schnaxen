@@ -2,5 +2,10 @@ as yet unclassified
 close
 
 	super close.
-	self baxens do: [:each | self removeMorph: each].
+	self baxens do: [:each | self removeMorph: each fightMorph].
+	self enemies do: [:each | 
+		self removeMorph: each fightMorph.
+		each isDead ifTrue: [
+			each owner ifNotNil: [
+				each owner removeMorph: each]]].
 	

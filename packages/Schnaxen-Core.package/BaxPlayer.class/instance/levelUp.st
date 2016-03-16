@@ -1,4 +1,4 @@
-as yet unclassified
+fighting
 levelUp
 
 	self 
@@ -7,8 +7,6 @@ levelUp
 		maxHP: self maxHP + self level atRandom;
 		currentHP: self maxHP;
 		dmg: self dmg + 2 atRandom.
-		
-	self app field showMoreStuff: self baxName, ' is now level ', self level, Character cr.
 	
 	self level = 2 ifTrue: [
 		self skills add: #kick:].

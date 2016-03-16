@@ -3,8 +3,8 @@ createBaxens
 
 	self baxens: OrderedCollection new.
 	
-	baxens 
-		add: ((BaxFighter baxNamed: 'bixen') app: self);
-		add: ((BaxFighter baxNamed: 'schnaxen') app: self);
-		add: ((BaxFighter baxNamed: 'schnixel') app: self);
-		add: ((BaxFighter baxNamed: 'baxmeister') app: self)
+	self baxens 
+		add: (BaxPlayer new baxName: 'bixen');
+		add: (BaxPlayer new baxName: 'schnaxen');
+		add: (BaxPlayer new baxName: 'schnixel');
+		add: (BaxPlayer new baxName: 'baxmeister')

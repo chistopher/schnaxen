@@ -1,7 +1,7 @@
 testing
 fighterActs
 
-	^self currentActor isKindOf: BaxFighter
+	^self currentActor isKindOf: BaxPlayer
 
 
 	

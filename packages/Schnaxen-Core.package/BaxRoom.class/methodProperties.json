@@ -2,7 +2,7 @@
 	"class" : {
 		"clearRoomCache" : "cw 3/13/2016 11:36",
 		"room0x1" : "cw 3/13/2016 19:21",
-		"room1x0" : "CW 3/16/2016 11:53",
+		"room1x0" : "CW 3/16/2016 16:27",
 		"room1x1" : "cw 3/13/2016 11:35",
 		"room30x98" : "CW 3/16/2016 11:28",
 		"room378x378" : "cw 3/13/2016 11:35",
@@ -11,7 +11,8 @@
 	"instance" : {
 		"add:sized:at:" : "cw 3/13/2016 19:20",
 		"add:sized:at:withBlock:" : "cw 3/11/2016 20:33",
-		"addNPC:at:" : "cw 3/13/2016 19:21",
+		"addEnemy:at:" : "CW 3/16/2016 16:30",
+		"addNPC:at:" : "CW 3/16/2016 15:09",
 		"addNPC:at:withBlock:" : "cw 3/11/2016 20:33",
 		"bild" : "CW 3/4/2016 21:44",
 		"bild:" : "CW 3/4/2016 21:44",

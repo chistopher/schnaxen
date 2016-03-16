@@ -1,12 +1,12 @@
 {
 	"category" : "Schnaxen-Core",
 	"classinstvars" : [
-		"imageCache" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"field" ],
+		"requiredXP" ],
 	"name" : "BaxPlayer",
 	"pools" : [
 		 ],

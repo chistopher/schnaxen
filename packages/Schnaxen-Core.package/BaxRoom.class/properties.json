@@ -8,6 +8,7 @@
 	"instvars" : [
 		"obstacles",
 		"interactables",
+		"enemies",
 		"bild" ],
 	"name" : "BaxRoom",
 	"pools" : [

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"type" ],
+		 ],
 	"name" : "BaxEnemy",
 	"pools" : [
 		 ],
-	"super" : "BaxActor",
+	"super" : "BaxNPC",
 	"type" : "normal" }

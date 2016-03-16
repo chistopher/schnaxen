@@ -1,4 +1,4 @@
 movement
 changeRoomTo: aPos
 
-	self field changeRoomTo: aPos
+	self owner changeRoomTo: aPos

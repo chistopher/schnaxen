@@ -1,4 +1,4 @@
-as yet unclassified
+fighting
 gainXP: aNumber
 
 	self xp: self xp + aNumber.

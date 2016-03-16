@@ -9,11 +9,11 @@ room1x0
 		app field changeRoomTo: 378@378.
 		app field bax position: 200@200 + app position].
 
-	raum addNPC: 'bax' at: 140@15. 
-	raum addNPC: 'punk' at: 120@10. 
+	raum addEnemy: 'punk' at: 140@15. 
+	raum addEnemy: 'punk' at: 120@10. 
 	raum addNPC: 'punk' at: 80@60 withBlock: [:app | app field showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
 	raum addNPC: 'punk' at: 0@0 withBlock: [:app | app field showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
-	raum addNPC: 'punk' at: 20@2 withBlock: [:app | app field showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
+	raum addNPC: 'bax' at: 20@2 withBlock: [:app | app field showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
 
 	raum add: 'mauer_vorn' sized: 5@5 at: 155@50.
 	raum add: 'mauer_vorn' sized: 5@5 at: 150@50.

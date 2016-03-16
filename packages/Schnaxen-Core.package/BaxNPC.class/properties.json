@@ -8,7 +8,14 @@
 	"instvars" : [
 		"direction",
 		"room",
-		"baxType" ],
+		"type",
+		"fightMorph",
+		"maxHP",
+		"currentHP",
+		"dmg",
+		"level",
+		"skills",
+		"xp" ],
 	"name" : "BaxNPC",
 	"pools" : [
 		 ],
