@@ -6,8 +6,9 @@ startGame
 	self field ifNil: [
 		self createBaxens.
 		self field: BaxField new.
-		self addMorph: self field.
 		self field bounds: BaxApp useableBounds.
-		self initInfoBar.
-		self keyBindings: self worldKeyBindings.
-		self openWindows add: self]
+		self addMorph: self field.
+		self initInfoBar].
+	self keyBindings: self worldKeyBindings.
+	self activateField.
+	self openWindows add: self.
