@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"changeResolution" : "CW 3/16/2016 13:35",
+		"close" : "CW 3/16/2016 12:52",
+		"currentFrontWindow" : "CW 3/16/2016 13:14",
+		"initialize" : "CW 3/16/2016 13:30",
+		"keyBindings" : "CW 3/16/2016 13:05",
+		"keyBindings:" : "CW 3/16/2016 13:04",
+		"openSubWindow:" : "CW 3/16/2016 12:48",
+		"ownKeyBindings" : "CW 3/16/2016 13:31",
+		"resize" : "CW 3/16/2016 13:34",
+		"subWindows" : "CW 3/16/2016 12:47",
+		"subWindows:" : "CW 3/16/2016 12:46" } }

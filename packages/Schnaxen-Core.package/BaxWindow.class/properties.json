@@ -6,14 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bax",
-		"activeRaum",
-		"raumPos",
-		"background",
-		"baxens",
-		"infoBar" ],
-	"name" : "BaxField",
+		"subWindows",
+		"keyBindings" ],
+	"name" : "BaxWindow",
 	"pools" : [
 		 ],
-	"super" : "BaxWindow",
+	"super" : "Morph",
 	"type" : "normal" }

@@ -1,0 +1,4 @@
+keyBindings
+ownKeyBindings
+	
+	^ Dictionary new

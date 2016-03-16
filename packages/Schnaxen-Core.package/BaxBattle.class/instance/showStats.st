@@ -16,4 +16,4 @@ showStats
 		'Enemy ', each baxName, Character cr,
 		'HP: ', each currentHP, '/', each maxHP, Character cr, Character cr].
 	
-	self app showStuff: stats.
+	self owner showStuff: stats.

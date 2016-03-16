@@ -1,5 +1,5 @@
 keyBindings
-keyBindings
+ownKeyBindings	
 	
 	^ Dictionary newFrom: {
 	$e		-> 	[self chooseItem].

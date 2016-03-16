@@ -7,12 +7,11 @@ initInfoBar
 	self infoBar: Morph new.
 	self addMorph: self infoBar.
 	
-	self infoBar position: self field topRight.
+	self infoBar position: self topRight.
 	self infoBar extent: (300@ self extent y).
-	self infoBar color: Color black.
+	self infoBar color: Color yellow.
 	
 	textMorph := TextMorph new.
-	textMorph position: infoBar position.
-	textMorph color: Color white.
+	textMorph position: self infoBar position.
 	
 	self infoBar addMorph: textMorph

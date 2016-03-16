@@ -11,9 +11,9 @@ room1x0
 
 	raum addNPC: 'bax' at: 140@15. 
 	raum addNPC: 'punk' at: 120@10. 
-	raum addNPC: 'punk' at: 80@60 withBlock: [:app | app showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
-	raum addNPC: 'punk' at: 0@0 withBlock: [:app | app showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
-	raum addNPC: 'punk' at: 20@2 withBlock: [:app | app showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
+	raum addNPC: 'punk' at: 80@60 withBlock: [:app | app field showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
+	raum addNPC: 'punk' at: 0@0 withBlock: [:app | app field showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
+	raum addNPC: 'punk' at: 20@2 withBlock: [:app | app field showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
 
 	raum add: 'mauer_vorn' sized: 5@5 at: 155@50.
 	raum add: 'mauer_vorn' sized: 5@5 at: 150@50.
@@ -24,7 +24,7 @@ room1x0
 		app field bax position: 500@500 + app position].
 
 	raum add: 'stein' sized: (5@5) at: (15@70) withBlock: [:app| 
-			app showStuff: 'You found the stone', Character cr, 'The baxens healed AF'.
-			app healAllBaxens].
+			app field showStuff: 'You found the stone', Character cr, 'The baxens healed AF'.
+			app field healAllBaxens].
 
 	^raum

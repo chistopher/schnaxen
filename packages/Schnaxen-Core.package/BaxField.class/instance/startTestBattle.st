@@ -1,4 +1,4 @@
-debugging
+fighting
 startTestBattle
 
 	self changeToBattleVs: 

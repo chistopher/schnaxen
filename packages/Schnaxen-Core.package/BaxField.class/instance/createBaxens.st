@@ -8,4 +8,3 @@ createBaxens
 		add: ((BaxFighter baxNamed: 'schnaxen') app: self);
 		add: ((BaxFighter baxNamed: 'schnixel') app: self);
 		add: ((BaxFighter baxNamed: 'baxmeister') app: self)
-	

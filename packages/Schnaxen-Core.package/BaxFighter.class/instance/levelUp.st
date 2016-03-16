@@ -8,7 +8,7 @@ levelUp
 		currentHP: self maxHP;
 		dmg: self dmg + 2 atRandom.
 		
-	self app showMoreStuff: self baxName, ' is now level ', self level, Character cr.
+	self app field showMoreStuff: self baxName, ' is now level ', self level, Character cr.
 	
 	self level = 2 ifTrue: [
 		self skills add: #kick:].

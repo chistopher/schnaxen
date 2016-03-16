@@ -6,7 +6,7 @@ fillMainMenu
 	menuItems := OrderedCollection new.
 	menuItems 
 		add: ('start game' -> [self startGame]);
-		add: ('change resolution' -> [self mainMenu bounds: self bounds. self openResolutionMenu]);
+		add: ('change resolution' -> [self openSubWindow: self resolutionMenu]);
 		add: ('exit' -> [self delete]).
 
 	self mainMenu clearMenu.

@@ -14,5 +14,5 @@
 	"name" : "BaxBattle",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "BaxWindow",
 	"type" : "normal" }

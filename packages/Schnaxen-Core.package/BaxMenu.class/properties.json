@@ -13,5 +13,5 @@
 	"name" : "BaxMenu",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "BaxWindow",
 	"type" : "normal" }

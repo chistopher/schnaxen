@@ -10,8 +10,8 @@ enemyTurn: anEnemy
 	
 	anEnemy attack: target.
 	
-	self app showStuff: anEnemy baxName, ' attacks ', target baxName, Character cr.
-	self app showMoreStuff: target baxName, ' lost ', anEnemy dmg, 'HP'
+	self owner showStuff: anEnemy baxName, ' attacks ', target baxName, Character cr.
+	self owner showMoreStuff: target baxName, ' lost ', anEnemy dmg, 'HP'
 	
 
 

@@ -9,14 +9,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"field",
-		"keyBindings",
-		"battle",
-		"infoBar",
-		"baxens",
-		"mainMenu",
-		"openWindows" ],
+		"mainMenu" ],
 	"name" : "BaxApp",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "BaxWindow",
 	"type" : "normal" }

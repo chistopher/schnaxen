@@ -1,10 +1,8 @@
 key bindings
-mainMenuKeyBindings
+ownKeyBindings
 	
 	| dic | 
 	dic := Dictionary newFrom: {
-	$c 		-> 	[self].
-	$0 		-> 	[self delete].
 	$w		-> 	[self mainMenu last].
 	$a		-> 	[self mainMenu dropLevel].
 	$s		-> 	[self mainMenu next].
