@@ -1,4 +1,4 @@
-windows
+menu
 resolutionMenu
 
 	| resolutions current menuItems |

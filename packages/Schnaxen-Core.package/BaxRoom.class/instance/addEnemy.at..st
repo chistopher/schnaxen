@@ -11,7 +11,7 @@ addEnemy: aName at: aPosition
 	^NPC 
 		position: ((BaxApp appSize * aPosition / (BaxApp aspectRatio *10)) + self position);
 		type: aName;
-		block: [:app| app field changeToBattleVs: {NPC}];
+		block: [:field| field changeToBattleVs: {NPC}];
 		image: NPC defaultImage;
 		startStepping.
 

@@ -5,6 +5,7 @@ resize
 	self 
 		bounds: BaxApp useableBounds;
 		activeRaum: (BaxRoom roomAt: self raumPos).
+	self infoBar position: self topRight. "debug shit"
 	self bax image: self bax defaultImage.
 	self bax position: self position "just a fix"
 		
