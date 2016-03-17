@@ -10,6 +10,12 @@ room1x0
 		field bax position: 200@200 + field position].
 
 	raum addEnemy: 'punk' at: 140@15. 
+	raum addEnemy: 'cat' at: 150@30. 
+	raum addEnemy: 'cat' at: 140@30. 
+	raum addEnemy: 'cat' at: 145@25. 
+	raum addEnemy: 'cat' at: 70@30. 
+	raum addEnemy: 'cat' at: 80@30. 
+	raum addEnemy: 'cat' at: 85@25. 
 	raum addEnemy: 'punk' at: 120@10. 
 	raum addNPC: 'bax' at: 100@60 withBlock: [:field | field showStuff: 'this is a common rick', Character cr, 'in his natural habitat']. 
 
