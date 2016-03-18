@@ -1,4 +1,6 @@
-accessing
+fighting
 fightMorph
 
-	^ fightMorph ifNil: [fightMorph := ImageMorph new]
+	^ fightMorph ifNil: [
+		fightMorph := ImageMorph new 		
+				image: (BaxResources image: self fightImageName size: self fightImageSize * BaxApp magnification)]

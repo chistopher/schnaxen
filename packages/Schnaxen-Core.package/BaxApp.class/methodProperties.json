@@ -2,8 +2,9 @@
 	"class" : {
 		"appSize" : "CW 3/13/2016 19:58",
 		"appSize:" : "CW 3/13/2016 21:47",
-		"aspectRatio" : "cw 3/13/2016 15:08",
-		"minAppSize" : "CW 3/13/2016 19:58",
+		"magnification" : "CW 3/18/2016 18:57",
+		"magnification:" : "CW 3/18/2016 18:58",
+		"minAppSize" : "CW 3/18/2016 18:59",
 		"useableBounds" : "CW 3/13/2016 21:44",
 		"useableBounds:" : "CW 3/13/2016 21:48" },
 	"instance" : {
@@ -14,9 +15,9 @@
 		"handlesKeyboard:" : "CW 3/3/2016 18:27",
 		"initialize" : "cw 3/17/2016 15:38",
 		"keyStroke:" : "cw 3/17/2016 15:15",
-		"mainMenu" : "cw 3/17/2016 15:56",
-		"newField" : "cw 3/17/2016 15:50",
+		"mainMenu" : "CW 3/18/2016 21:25",
+		"newField" : "CW 3/18/2016 19:59",
 		"ownKeyBindings" : "cw 3/17/2016 15:17",
 		"resize" : "cw 3/17/2016 15:39",
-		"resolutionMenu" : "CW 3/16/2016 13:36",
+		"resolutionMenu" : "CW 3/18/2016 19:01",
 		"wantsKeyboardFocus" : "CW 3/3/2016 18:28" } }

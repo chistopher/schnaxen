@@ -1,5 +1,5 @@
-as yet unclassified
+room management
 changeRoomTo: aPos
 
-	self activeRaum: (BaxRoom roomAt: aPos).
-	self raumPos: aPos 
+	self leaveCurrentRoom.
+	self enterRoomAt: aPos.

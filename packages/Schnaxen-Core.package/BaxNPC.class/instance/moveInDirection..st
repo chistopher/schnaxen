@@ -5,7 +5,7 @@ moveInDirection: aVector
 	
 	newBounds := self bounds translateBy: (aVector * self moveRange).
 	self direction:  aVector.
-	self image: (BaxResources image: self type, aVector x, 'x', aVector y size: self extent).
+	self image: (BaxResources image: self fieldImageName size: self extent).
 
-	(self canMoveTo: newBounds) ifTrue: [
-		self bounds: newBounds]
+	((self owner contains: newBounds) and: [self canMoveTo: newBounds])
+		ifTrue: [self bounds: newBounds]

@@ -5,8 +5,7 @@ cat: aName
 	
 	enemy := self new.
 	^enemy 
-		type: 'cat';
-		fightImage: 'cat1x0' size: 100@100;
+		fightImageName: 'cat1x0'; 
 		baxName: aName;
 		level: 1;
 		maxHP: 3;

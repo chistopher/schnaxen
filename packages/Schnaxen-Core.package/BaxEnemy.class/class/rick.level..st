@@ -5,8 +5,7 @@ rick: aName level: aNumber
 	
 	enemy := self new.
 	^enemy 
-		type: 'rick';
-		fightImage: 'rick' size: 100@100;
+		fightImageName: 'cat1x0'; 
 		baxName: aName, '_lvl', aNumber;
 		level: aNumber;
 		xp: 1 + aNumber;

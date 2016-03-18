@@ -9,9 +9,9 @@
 		"obstacles",
 		"interactables",
 		"enemies",
-		"bild" ],
+		"imageName" ],
 	"name" : "BaxRoom",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

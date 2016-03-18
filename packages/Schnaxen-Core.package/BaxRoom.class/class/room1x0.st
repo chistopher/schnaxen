@@ -3,13 +3,16 @@ room1x0
 
 	| raum | 
 
-	raum := BaxRoom new color: Color white.
-	raum add: 'haus2' sized: (30@30) at: (30@30).
-	raum add: 'stein' sized: 0@0 at: 45@59 withBlock: [:field| 
+	raum := BaxRoom new.
+	
+	raum obstacles add: (BaxObject new fieldImageName: 'haus2'; sizeInField: 10@10; location: 10@10).
+	
+	raum interactables add: (BaxObject new fieldImageName: 'stein'; sizeInField: 2@2; location: 14@18; block: [:field| 
 		field changeRoomTo: 378@378.
-		field bax position: 200@200 + field position].
+		field bax position: 200@200 + field position]).
 
-	raum addEnemy: 'punk' at: 140@15. 
+	raum enemies add: (BaxEnemy new location: 40@20; fieldImageName: 'cat'; baxName: 'fightercat'). 
+	"
 	raum addEnemy: 'cat' at: 150@30. 
 	raum addEnemy: 'cat' at: 140@30. 
 	raum addEnemy: 'cat' at: 145@25. 
@@ -30,5 +33,5 @@ room1x0
 	raum add: 'stein' sized: (5@5) at: (15@70) withBlock: [:field| 
 			field showStuff: 'You found the stone', Character cr, 'The baxens healed AF'.
 			field healAllBaxens].
-
+ 	"
 	^raum

@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"block",
-		"baxName" ],
+		"baxName",
+		"location",
+		"sizeInField",
+		"fieldImageName" ],
 	"name" : "BaxObject",
 	"pools" : [
 		 ],

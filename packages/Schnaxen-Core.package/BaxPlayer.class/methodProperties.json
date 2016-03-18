@@ -2,15 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"canMoveTo:" : "CW 3/16/2016 14:55",
-		"changeRoomTo:" : "CW 3/16/2016 14:55",
-		"defaultImage" : "cw 3/13/2016 19:20",
 		"gainXP:" : "CW 3/16/2016 16:02",
-		"initialize" : "CW 3/16/2016 16:01",
-		"interact" : "cw 3/17/2016 15:46",
+		"initialize" : "CW 3/18/2016 22:19",
+		"interact" : "CW 3/18/2016 21:38",
 		"interactionArea" : "cw 3/12/2016 21:54",
 		"levelUp" : "CW 3/16/2016 16:13",
-		"moveInDirection:" : "CW 3/16/2016 14:55",
+		"moveInDirection:" : "CW 3/18/2016 21:50",
 		"ownKeyBindings" : "CW 3/16/2016 16:22",
 		"requiredXP" : "CW 3/16/2016 16:00",
 		"requiredXP:" : "CW 3/16/2016 16:00",

@@ -4,8 +4,8 @@ resize
 	BaxRoom clearRoomCache. "coz rooms are just 4 one resolution"	
 	self 
 		bounds: BaxApp useableBounds;
-		activeRaum: (BaxRoom roomAt: self raumPos).
+		enterRoomAt: self roomPos.
 	self infoBar position: self topRight. "debug shit"
-	self bax image: self bax defaultImage.
-	self bax position: self position "just a fix"
+
+	"resize all obstacles and the player"
 		

@@ -1,4 +1,4 @@
 as yet unclassified
 moveRange
 
-	^ self extent // 2
+	^ self sizeInField / 2 * BaxApp magnification

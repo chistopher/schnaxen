@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"direction",
-		"room",
-		"type",
 		"fightMorph",
+		"fightImageSize",
+		"fightImageName",
 		"maxHP",
 		"currentHP",
 		"dmg",

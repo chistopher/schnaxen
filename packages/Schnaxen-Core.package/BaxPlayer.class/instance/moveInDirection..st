@@ -5,8 +5,8 @@ moveInDirection: aVector
 		
 	newBounds := self bounds translateBy: (aVector * self moveRange).
 	self direction:  aVector.
-	newRaumPos := self owner raumPos + direction.
-	self image: (BaxResources image: 'bax', aVector x, 'x', aVector y size: self extent).
+	newRaumPos := self owner roomPos + direction.
+	self image: (BaxResources image: self fieldImageName size: self extent).
 
 	(self canMoveTo: newBounds) ifFalse: [^self].
 
@@ -14,5 +14,5 @@ moveInDirection: aVector
 		^self bounds: newBounds].
 
 	(BaxRoom roomExists: newRaumPos) ifTrue: [
-		self changeRoomTo: newRaumPos.
+		self owner changeRoomTo: newRaumPos.
 		self position: ((self owner extent - self extent) * direction negated + self position)]

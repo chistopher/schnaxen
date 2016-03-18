@@ -2,13 +2,15 @@ initialization
 initialize 
 				
 	super initialize.
-	
 	self 
+		bounds: BaxApp useableBounds;
+		initInfoBar;
+		background: (ImageMorph new position: self position);
+		addMorph: self background;
 		createBaxens;
-		bax: self baxens first;
+		bax: (self baxens first position: self position);
 		addMorph: self bax;
-		activeRaum: (BaxRoom roomAt: (1@1));
-		raumPos: (1@1).
+		enterRoomAt: (1@1).
 	
 	self keyBindings addAll: self bax ownKeyBindings.
 

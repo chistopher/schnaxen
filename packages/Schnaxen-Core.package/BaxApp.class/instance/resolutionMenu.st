@@ -13,6 +13,7 @@ resolutionMenu
 	resolutions reverse do: [:each| menuItems add: ('', each -> [
 			BaxApp appSize: each. 
 			BaxApp useableBounds: (((self extent - each) / 2) extent: each).
+			BaxApp magnification: BaxApp appSize x / BaxApp minAppSize x.
 			self changeResolution.
 			self currentFrontWindow close.
 			])].

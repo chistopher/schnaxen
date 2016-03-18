@@ -5,8 +5,7 @@ punk: aName
 	
 	enemy := self new.
 	^enemy 
-		type: 'punk';
-		fightImage: 'punk1x0' size: 100@100;
+		fightImageName: 'cat1x0'; 
 		baxName: aName;
 		level: 1;
 		maxHP: 3;

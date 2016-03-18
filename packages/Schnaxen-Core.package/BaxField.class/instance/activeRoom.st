@@ -1,0 +1,4 @@
+accessing
+activeRoom
+
+	^ activeRoom
