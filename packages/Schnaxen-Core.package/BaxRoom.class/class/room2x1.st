@@ -1,5 +1,5 @@
 as yet unclassified
-room378x378
+room2x1
 
 	| raum | 
 
@@ -7,10 +7,6 @@ room378x378
 	"Mauer oben"
 	(0 to: 15) do: [:index|
 		raum obstacles add: (BaxObject new fieldImageName: 'mauer_vorn'; sizeInField: 4@4; location: 4*index@0)].
-	
-	"Mauer links"
-	(0 to: 7) do: [:index|
-		raum obstacles add: (BaxObject new fieldImageName: 'mauer_seite'; sizeInField: 2@6; location: 0@(4*index+2))].
 
 	"Mauer rechts"
 	(0 to: 7) do: [:index|
@@ -19,9 +15,5 @@ room378x378
 	"Mauer unten"
 	(0 to: 15) do: [:index|
 		raum obstacles add: (BaxObject new fieldImageName: 'mauer_vorn'; sizeInField: 4@4; location: 4*index@32)].
-	
-	raum interactables add: (BaxNPC new fieldImageName: 'cat'; sizeInField: 10@10; location: 30@16; block: [:field| 
-		field changeRoomTo: 1@0.
-		field bax position: 14@20 * BaxApp magnification + field position]).
 
 	^raum

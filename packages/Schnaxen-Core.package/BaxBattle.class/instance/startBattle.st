@@ -3,7 +3,7 @@ startBattle
 
 	| pos |
 
-	pos := self position + (500@20).
+	pos := 54@2 * BaxApp magnification + self position.
 	self baxens do: [:each| | fightmorph |
 		fightmorph := each fightMorph.
 		fightmorph position: pos.
@@ -11,7 +11,7 @@ startBattle
 		pos := pos + (0@(fightmorph extent y +20))].
 	
 	
-	pos := self position + 20.
+	pos := 2@2 * BaxApp magnification + self position.
 	self enemies do: [:each| | fightmorph |
 		fightmorph := each fightMorph.
 		fightmorph position: pos.

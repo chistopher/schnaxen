@@ -8,7 +8,7 @@ enterRoomAt: aPosition
 		each image: (BaxResources image: each fieldImageName size: each sizeInField * BaxApp magnification);
 		position: each location * BaxApp magnification + self position].
 	self setBackground: room imageName;
-		addAllMorphsFront: (room obstacles, room interactables, room enemies) reversed;
+		addAllMorphsFront: (room interactables, room obstacles, room enemies) reversed;
 		activeRoom: room;
 		roomPos: aPosition.
 
