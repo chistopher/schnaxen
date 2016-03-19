@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addInteraction:" : "cw 3/19/2016 18:35",
 		"baxName" : "cw 3/11/2016 20:00",
 		"baxName:" : "cw 3/11/2016 20:00",
 		"block" : "cw 3/11/2016 20:00",
@@ -9,7 +10,12 @@
 		"doStuff:" : "cw 3/11/2016 20:33",
 		"fieldImageName" : "CW 3/18/2016 20:12",
 		"fieldImageName:" : "CW 3/18/2016 20:12",
+		"initialize" : "cw 3/19/2016 18:34",
+		"interactable" : "cw 3/19/2016 18:33",
+		"interactable:" : "cw 3/19/2016 18:33",
 		"location" : "CW 3/18/2016 20:11",
 		"location:" : "CW 3/18/2016 20:11",
+		"passable" : "cw 3/19/2016 18:33",
+		"passable:" : "cw 3/19/2016 18:33",
 		"sizeInField" : "CW 3/18/2016 20:12",
 		"sizeInField:" : "CW 3/18/2016 20:12" } }

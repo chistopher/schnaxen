@@ -7,8 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"obstacles",
-		"interactables",
-		"enemies",
 		"imageName" ],
 	"name" : "BaxRoom",
 	"pools" : [

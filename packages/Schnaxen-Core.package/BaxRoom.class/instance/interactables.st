@@ -1,4 +1,0 @@
-accessing
-interactables
-
-	^ interactables

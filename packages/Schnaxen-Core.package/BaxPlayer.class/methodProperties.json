@@ -4,10 +4,10 @@
 	"instance" : {
 		"gainXP:" : "CW 3/16/2016 16:02",
 		"initialize" : "CW 3/18/2016 22:19",
-		"interact" : "CW 3/18/2016 21:38",
+		"interact" : "cw 3/19/2016 18:51",
 		"interactionArea" : "cw 3/12/2016 21:54",
 		"levelUp" : "CW 3/16/2016 16:13",
-		"moveInDirection:" : "CW 3/18/2016 21:50",
+		"moveInDirection:" : "cw 3/19/2016 20:36",
 		"ownKeyBindings" : "CW 3/16/2016 16:22",
 		"requiredXP" : "CW 3/16/2016 16:00",
 		"requiredXP:" : "CW 3/16/2016 16:00",

@@ -6,4 +6,5 @@ initialize
 		color: Color white;
 		level: 0;
 		levelMorphs: OrderedCollection new;
-		selectedItems: OrderedCollection new.
+		selectedItems: OrderedCollection new;
+		clipSubmorphs: true

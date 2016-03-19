@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"attack:" : "CW 3/16/2016 15:53",
-		"canMoveTo:" : "cw 3/19/2016 15:00",
+		"canMoveTo:" : "cw 3/19/2016 18:44",
 		"currentHP" : "CW 3/16/2016 15:13",
 		"currentHP:" : "CW 3/16/2016 15:13",
 		"direction" : "CW 3/9/2016 18:17",
@@ -26,7 +26,7 @@
 		"loseHP:" : "CW 3/16/2016 15:59",
 		"maxHP" : "CW 3/16/2016 15:13",
 		"maxHP:" : "CW 3/16/2016 15:13",
-		"moveInDirection:" : "CW 3/18/2016 21:49",
+		"moveInDirection:" : "cw 3/19/2016 20:12",
 		"moveRange" : "CW 3/18/2016 20:37",
 		"skills" : "CW 3/16/2016 15:49",
 		"skills:" : "CW 3/16/2016 15:13",

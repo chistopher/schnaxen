@@ -10,7 +10,9 @@
 		"baxName",
 		"location",
 		"sizeInField",
-		"fieldImageName" ],
+		"fieldImageName",
+		"interactable",
+		"passable" ],
 	"name" : "BaxObject",
 	"pools" : [
 		 ],

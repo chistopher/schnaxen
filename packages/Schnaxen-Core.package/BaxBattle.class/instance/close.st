@@ -7,6 +7,6 @@ close
 		self removeMorph: each fightMorph.
 		each isDead ifTrue: [
 			each owner ifNotNil: [
-				each owner activeRoom enemies remove: each.
+				each owner activeRoom obstacles remove: each.
 				each owner removeMorph: each]]].
 	

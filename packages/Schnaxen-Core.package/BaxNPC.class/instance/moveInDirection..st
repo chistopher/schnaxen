@@ -8,4 +8,6 @@ moveInDirection: aVector
 	self image: (BaxResources image: self fieldImageName size: self extent).
 
 	((self owner contains: newBounds) and: [self canMoveTo: newBounds])
-		ifTrue: [self bounds: newBounds]
+		ifTrue: [
+			self bounds: newBounds.
+			self location: self location + self direction]
