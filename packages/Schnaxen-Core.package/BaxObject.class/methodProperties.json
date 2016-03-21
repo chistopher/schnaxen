@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"addInteraction:" : "cw 3/19/2016 18:35",
+		"addSpeech:" : "CW 3/21/2016 17:41",
 		"baxName" : "cw 3/11/2016 20:00",
 		"baxName:" : "cw 3/11/2016 20:00",
 		"block" : "cw 3/11/2016 20:00",
@@ -17,9 +18,13 @@
 		"location:" : "CW 3/18/2016 20:11",
 		"passable" : "cw 3/19/2016 18:33",
 		"passable:" : "cw 3/19/2016 18:33",
+		"resetDialog" : "CW 3/21/2016 17:39",
+		"sayStuff" : "CW 3/21/2016 17:40",
 		"sizeInField" : "CW 3/18/2016 20:12",
 		"sizeInField:" : "CW 3/18/2016 20:12",
-		"speecharray" : "cw 3/20/2016 20:52",
-		"speecharray:" : "cw 3/20/2016 20:52",
-		"speechpointer" : "cw 3/20/2016 20:52",
-		"speechpointer:" : "cw 3/20/2016 20:52" } }
+		"speechArray" : "CW 3/21/2016 12:06",
+		"speechArray:" : "CW 3/21/2016 12:06",
+		"speechBubble" : "CW 3/21/2016 12:10",
+		"speechBubble:" : "CW 3/21/2016 12:10",
+		"speechPointer" : "CW 3/21/2016 12:06",
+		"speechPointer:" : "CW 3/21/2016 12:06" } }

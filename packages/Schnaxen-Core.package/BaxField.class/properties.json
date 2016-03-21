@@ -10,8 +10,7 @@
 		"activeRoom",
 		"roomPos",
 		"background",
-		"baxens",
-		"infoBar" ],
+		"baxens" ],
 	"name" : "BaxField",
 	"pools" : [
 		 ],

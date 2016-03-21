@@ -1,4 +1,4 @@
 accessing
-speechpointer: anObject
+speechPointer: anObject
 
-	speechpointer := anObject
+	speechPointer := anObject

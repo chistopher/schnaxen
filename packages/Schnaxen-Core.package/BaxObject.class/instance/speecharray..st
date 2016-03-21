@@ -1,4 +1,4 @@
 accessing
-speecharray: anObject
+speechArray: anObject
 
-	speecharray := anObject
+	speechArray := anObject

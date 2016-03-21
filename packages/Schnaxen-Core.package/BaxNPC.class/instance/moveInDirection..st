@@ -5,9 +5,9 @@ moveInDirection: aVector
 	
 	newBounds := self bounds translateBy: (aVector * self moveRange).
 	self direction:  aVector.
-	self image: (BaxResources image: self fieldImageName size: self extent).
+	self owner reloadImageOf: self.
 
 	((self owner contains: newBounds) and: [self canMoveTo: newBounds])
 		ifTrue: [
-			self bounds: newBounds.
-			self location: self location + self direction]
+			self location: self location + self direction.
+			self owner reposition: self "reposition me in my field"]

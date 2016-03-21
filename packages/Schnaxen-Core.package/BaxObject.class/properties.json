@@ -13,8 +13,9 @@
 		"fieldImageName",
 		"interactable",
 		"passable",
-		"speecharray",
-		"speechpointer" ],
+		"speechArray",
+		"speechPointer",
+		"speechBubble" ],
 	"name" : "BaxObject",
 	"pools" : [
 		 ],

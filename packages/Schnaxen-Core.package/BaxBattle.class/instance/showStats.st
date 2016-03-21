@@ -15,5 +15,3 @@ showStats
 	enemies do: [ :each | stats := stats,
 		'Enemy ', each baxName, Character cr,
 		'HP: ', each currentHP, '/', each maxHP, Character cr, Character cr].
-	
-	self owner showStuff: stats.

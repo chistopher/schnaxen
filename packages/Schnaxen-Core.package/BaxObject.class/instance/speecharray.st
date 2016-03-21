@@ -1,4 +1,4 @@
 accessing
-speecharray
+speechArray
 
-	^ speecharray
+	^ speechArray

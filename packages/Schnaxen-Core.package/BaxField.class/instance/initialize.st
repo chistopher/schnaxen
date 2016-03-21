@@ -4,7 +4,6 @@ initialize
 	super initialize.
 	self 
 		bounds: BaxApp useableBounds;
-		"initInfoBar;"
 		background: (ImageMorph new position: self position);
 		addMorph: self background;
 		createBaxens;

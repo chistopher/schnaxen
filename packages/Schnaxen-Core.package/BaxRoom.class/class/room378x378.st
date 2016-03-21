@@ -20,7 +20,8 @@ room378x378
 	(0 to: 15) do: [:index|
 		raum obstacles add: (BaxObject new fieldImageName: 'mauer_vorn'; sizeInField: 4@4; location: 4*index@32)].
 	
-	raum obstacles add: (BaxNPC new fieldImageName: 'cat'; sizeInField: 10@10; location: 30@16; addInteraction: [:field| 
+	raum obstacles add: (BaxNPC new fieldImageName: 'cat'; sizeInField: 10@10; location: 30@16; addInteraction: [:this| | field |
+		field := this owner.
 		field changeRoomTo: 1@0.
 		field bax position: 14@20 * BaxApp magnification + field position]).
 
