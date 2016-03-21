@@ -12,7 +12,9 @@
 		"sizeInField",
 		"fieldImageName",
 		"interactable",
-		"passable" ],
+		"passable",
+		"speecharray",
+		"speechpointer" ],
 	"name" : "BaxObject",
 	"pools" : [
 		 ],
