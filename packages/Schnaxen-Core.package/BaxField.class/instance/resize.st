@@ -6,3 +6,5 @@ resize
 		bounds: BaxApp useableBounds;
 		changeRoomTo: self roomPos.
 		
+	"they will be created next time they are needed"
+	self baxens do: [:each| each fightMorph: nil]

@@ -6,14 +6,14 @@ mainMenu
 	mainMenu := BaxVerticalMenu new.
 	mainMenu 
 		extent: self extent x / 2 @self extent y;
-		position: self topCenter;
-		color: Color blue.
+		topRight: self topRight;
+		color: Color white.
 
 	menuItems := {
 		('resume' -> [mainMenu close]).
+		('characters' -> [self openSubWindow: self characterMenu]).
 		('resolution' -> [self owner openSubWindow: self owner resolutionMenu. mainMenu close]).
 		('do nothing' -> []).
-		('scroll down' -> []).
 		('exit' -> [self close])}.
 
 	^ mainMenu fromList: menuItems withDepth: 1
