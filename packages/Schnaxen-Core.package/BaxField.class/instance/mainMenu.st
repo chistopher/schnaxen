@@ -3,7 +3,7 @@ mainMenu
 
 	| menuItems mainMenu |
 
-	mainMenu := BaxVerticalMenu new.
+	mainMenu := BaxMenu new.
 	mainMenu 
 		extent: self extent x / 2 @self extent y;
 		topRight: self topRight;
@@ -16,4 +16,4 @@ mainMenu
 		('do nothing' -> []).
 		('exit' -> [self close])}.
 
-	^ mainMenu fromList: menuItems withDepth: 1
+	^ mainMenu fromList: menuItems

@@ -18,7 +18,7 @@ resolutionMenu
 			self currentFrontWindow close.
 			])].
 	
-	^ BaxVerticalMenu new 
+	^ BaxMenu new 
 		bounds: self bounds; 
-		fromList: menuItems withDepth: 1.
+		fromList: menuItems.
 			

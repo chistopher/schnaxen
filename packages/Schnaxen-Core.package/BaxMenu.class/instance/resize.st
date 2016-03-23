@@ -7,5 +7,5 @@ resize
 	items := self items.
 	depth := self maxLevel.
 	self clearMenu.
-	self fromList: items withDepth: depth.
+	self fromList: items.
 	
