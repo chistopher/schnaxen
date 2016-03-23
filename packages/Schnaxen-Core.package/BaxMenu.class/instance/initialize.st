@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	
 	super initialize.
@@ -7,4 +7,8 @@ initialize
 		level: 0;
 		levelMorphs: OrderedCollection new;
 		selectedItems: OrderedCollection new;
-		clipSubmorphs: true
+		visibleItems: 5;
+		vertical: true.
+		
+	self keyBindings addAll: self thisKeyBindings.
+		

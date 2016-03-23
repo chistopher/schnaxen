@@ -9,7 +9,10 @@
 		"items",
 		"selectedItems",
 		"levelMorphs",
-		"level" ],
+		"level",
+		"maxLevel",
+		"vertical",
+		"visibleItems" ],
 	"name" : "BaxMenu",
 	"pools" : [
 		 ],

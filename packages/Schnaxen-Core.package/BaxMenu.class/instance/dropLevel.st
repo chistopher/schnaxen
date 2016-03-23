@@ -3,7 +3,7 @@ dropLevel
 
 	self ifEmpty: [^self].
 	self level = 1 ifTrue: [^self].
-	self morphsOfCurrentLevel do: [:each| self removeMorph: each].
+	( self submorphs first submorphs at: self level ) removeAllMorphs.
 	self levelMorphs removeLast.
 	self selectedItems removeLast.
 	self level: self level -1.

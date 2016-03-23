@@ -3,7 +3,7 @@ mainMenu
 
 	| menuItems mainMenu |
 
-	mainMenu := BaxVerticalMenu new.
+	mainMenu := BaxMenu new.
 	mainMenu 
 		bounds: (BaxApp useableBounds insetBy: (BaxApp useableBounds extent * 0.1));
 		color: Color transparent.
@@ -16,4 +16,4 @@ mainMenu
 		add: ('scroll down' -> []);
 		add: ('exit' -> [self delete]).
 
-	^ mainMenu fromList: menuItems withDepth: 1
+	^ mainMenu fromList: menuItems

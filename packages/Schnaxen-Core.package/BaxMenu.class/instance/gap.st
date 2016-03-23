@@ -1,4 +1,4 @@
 geometry
-gap
+gap 
 
-	self subclassResponsibility 
+	^ ((self extent / 20) - ((self extent / 20) \\ self visibleItems)) ceiling

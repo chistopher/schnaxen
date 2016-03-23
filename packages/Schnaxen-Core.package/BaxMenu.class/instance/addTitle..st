@@ -1,6 +1,4 @@
 as yet unclassified
 addTitle: aString
 
-	self subclassResponsibility 
-
-	
+	"self addMorph: (StringMorph new contents: aString; color: Color black; position: self position +5 )"
