@@ -1,13 +1,18 @@
 menu
 characterMenu
 	
-	| menu column |
+	| menu column num |
 	
-	menu := BaxWindow new.
+	menu := BaxVerticalMenu new.
 	menu 
 		extent: self extent;
 		position: self position;
-		color: Color yellow.
+		color: Color yellow;
+		fromList: {
+			'1' -> [].
+			'2' -> [].
+			'3' -> [].
+			'4' -> [].} withDepth: 1.
 		
 	column := AlignmentMorph newColumn
 		bounds: menu bounds;
@@ -15,16 +20,14 @@ characterMenu
 		borderWidth: 0.25 * BaxApp magnification;
 		layoutInset: 0.
 		
-	menu addMorph: column.
-	.
-	baxens do: [ :each | | row temp |
+	"menu addMorph: column."
+	.num := 1.
+	baxens do: [ :each | | row temp menuItem |
 	
 		row := AlignmentMorph newRow 
 			listCentering: #justified;
 			wrapCentering: #center;
-			color: Color gray;
-			borderColor: Color white; 
-			borderWidth: 0.25 * BaxApp magnification.
+			color: Color transparent.
 				
 		"name"	
 		row addMorphBack: (TextMorph new 
@@ -49,14 +52,18 @@ characterMenu
 			beAllFont: (StrikeFont familyName: 'BitstreamVeraSans' size: 1 * BaxApp magnification)).	
 		temp addMorphBack: (TextMorph new 
 			contents: (Text fromString: 'HP: ', each currentHP, '/', each maxHP);
-			color: Color red;
+			color: Color green;
 			beAllFont: (StrikeFont familyName: 'BitstreamVeraSans' size: 1 * BaxApp magnification)).
 		row addMorphBack: temp.		
 
 		"image"	
 		row addMorphBack: each fightMorph. 	
 			
-		column addMorphBack: row.
+		menuItem := (menu levelMorphs at: 1) at: num.
+		menuItem addMorphBack: row.
+			
+		row bounds: menuItem bounds.
+		num := num +1.
 		].	
 		
 	^menu 
