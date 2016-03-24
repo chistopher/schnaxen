@@ -1,13 +1,15 @@
 as yet unclassified
 last
 	
-	| current next |
+	| current |
 	
 	self ifEmpty: [^self].
 	current := self selectedItems last.
-	next := self morphsOfCurrentLevel before: current
-		ifAbsent: [
-			next := self morphsOfCurrentLevel last].
-	self unselectItem.
-	self selectItem: next next: false.
+	
+	( current = self shownLevel submorphs first )
+		ifFalse:[
+			self unselectItem.
+			self selectItem:  (self morphsOfCurrentLevel before: current)]
+		ifTrue:[
+			self shiftItemsBack.]
 	 

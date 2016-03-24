@@ -7,7 +7,7 @@ addLevel: anOrderedCollection
 	self levelMorphs add: OrderedCollection new.
 	anOrderedCollection do: [:each| self addItem: each].
 	
-	currentLevelSubmorphs := self submorphs first submorphs at: self level.
+	currentLevelSubmorphs := self shownLevel.
 	( 1 to: ( ( self morphsOfCurrentLevel ) size min: self visibleItems  ) ) do:[ :i |
 		currentLevelSubmorphs addMorphBack: ( ( self morphsOfCurrentLevel ) at: i ).
 		].
