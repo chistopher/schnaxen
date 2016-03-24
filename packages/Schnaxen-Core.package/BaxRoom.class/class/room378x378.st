@@ -23,6 +23,7 @@ room378x378
 	raum obstacles add: (BaxNPC new fieldImageName: 'cat'; sizeInField: 10@10; location: 30@16; addInteraction: [:this| | field |
 		field := this owner.
 		field changeRoomTo: 1@0.
-		field bax position: 14@20 * BaxApp magnification + field position]).
+		field bax location: 14@20.
+		field reposition: field bax.]).
 
 	^raum

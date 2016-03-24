@@ -9,6 +9,8 @@ enemyTurn: anEnemy
 	target := self livingFighter atRandom.
 	
 	anEnemy attack: target.
+
+	self addAlarm: #endTurn after: 500.
 	
 
 

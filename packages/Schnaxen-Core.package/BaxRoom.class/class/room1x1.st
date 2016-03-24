@@ -6,19 +6,27 @@ room1x1
 	raum := BaxRoom new.
 	raum imageName: 'room1x1'.
 	
-	1 to: 4 do: [ :i |
-		raum obstacles add: (BaxObject new
+	"bäume"
+	1 to: 4 do: [ :i | raum obstacles add: (BaxObject new
 			fieldImageName: 'baum';
 			sizeInField: 5@5;
 			location: i * 11@3)].
 	
+	"mauern"
+	0 to: 5 do: [ :i | raum obstacles add: (BaxObject new
+			fieldImageName: 'mauer_vorn';
+			sizeInField: 4@4;
+			location: (4*i)@10)].
+	0 to: 2 do: [ :i | raum obstacles add: (BaxObject new
+		fieldImageName: 'mauer_seite';
+		sizeInField: 2@6;
+		location: 28@(i*4))].
+
 	raum obstacles add: (BaxObject new
 		fieldImageName: 'mauer_vorn';
 		sizeInField: 4@4;
-		location: 20@10;
-		addSpeech:  {
-		'hallo'. 'ich bin eine', Character cr, 'Mauer'. 'jup das stimmt'. 'geh weg'};
-		addInteraction: [:this| this sayStuff]).
+		location: 24@10;
+		addInteraction: [:this| this owner activeRoom obstacles remove: this. this delete]).
 		
 	raum obstacles add: (BaxNPC new
 		fieldImageName: 'punk';

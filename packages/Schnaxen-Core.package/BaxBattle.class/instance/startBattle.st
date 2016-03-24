@@ -19,6 +19,5 @@ startBattle
 		pos := pos + (0@(fightmorph extent y +20))].
 	
 	self currentActor: self baxens first.
-	self showStats.
 	
 	self fighterTurn: self currentActor

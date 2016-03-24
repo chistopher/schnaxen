@@ -5,6 +5,7 @@ characterMenu
 	
 	menu := BaxMenu new.
 	menu 
+		visibleItems: 4;
 		extent: self extent;
 		position: self position;
 		color: Color yellow.

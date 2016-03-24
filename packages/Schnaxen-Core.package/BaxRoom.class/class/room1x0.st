@@ -9,7 +9,8 @@ room1x0
 	raum obstacles add: (BaxObject new fieldImageName: 'stein'; sizeInField: 2@2; location: 14@18; addInteraction: [:this| | field |
 		field := this owner.
 		field changeRoomTo: 378@378.
-		field bax position: 30@30 * BaxApp magnification + field owner position]). "ugly fix to add an interaction @ the door"
+		field bax location: 29@30.
+		field reposition: field bax.]). "ugly fix to add an interaction @ the door"
 	raum obstacles add: (BaxObject new fieldImageName: 'haus2'; sizeInField: 10@10; location: 10@10).
 	
 
