@@ -6,16 +6,17 @@ fromList: anOrderedCollection
 	self items: anOrderedCollection.
 	self maxLevel: (self maxDepthOf: anOrderedCollection).
 	
-	theFullAlignmentMorph := ( self morphNumber: 1 inListsized: 1 vertical: self vertical not )
+	theFullAlignmentMorph := ( self createMorphVertical: self vertical not )
 		layoutPolicy: ProportionalLayout new;
 		bounds: self bounds;
 		color: Color transparent.
 		
-	(1to: self maxLevel) do:[ :i |
-		theFullAlignmentMorph addMorphBack: ( ( self morphNumber: i inListsized: maxLevel vertical: self vertical )
+	( 1to: self maxLevel ) do:[ :i |
+		theFullAlignmentMorph addMorphBack: ( ( self createMorphVertical: self vertical )
 			layoutPolicy: ProportionalLayout new;
 			color: Color transparent )
 		].
+	self layoutChildrenOfFirstLevel: theFullAlignmentMorph vertical: self vertical.
 	
 	self addMorph: theFullAlignmentMorph.
 	self addLevel: anOrderedCollection.

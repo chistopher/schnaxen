@@ -5,7 +5,9 @@ last
 	
 	self ifEmpty: [^self].
 	current := self selectedItems last.
-	next := self morphsOfCurrentLevel before: current ifAbsent: [^self].
+	next := self morphsOfCurrentLevel before: current
+		ifAbsent: [
+			next := self morphsOfCurrentLevel last].
 	self unselectItem.
-	self selectItem: next.
+	self selectItem: next next: false.
 	 

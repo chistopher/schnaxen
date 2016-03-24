@@ -3,20 +3,22 @@ addItem: anAssociation
 	
 	| morph | 
 	
-	morph := ( self morphNumber: ( self levelMorphs at: self level ) size + 1 inListsized: self visibleItems vertical: self vertical not )
+	morph := Morph new
 		listDirection: #leftToRight;
 		color: Color gray;
 		borderWidth: 1 * BaxApp magnification;
 		layoutPolicy: TableLayout new;
 		wrapCentering: #center;
 		listCentering: #center;
-		borderColor: Color transparent.
+		borderColor: Color transparent;
+		hResizing: #spaceFill;
+		vResizing: #spaceFill.
 	morph 
 		addMorph: (TextMorph new 
 			contents: anAssociation key; 
-			beAllFont: (StrikeFont
+			beAllFont: ( StrikeFont
  				familyName: 'BitstreamVeraSans'
-        			size:  self itemExtent y asInteger);
+        			size:  BaxApp magnification );
 			center: morph center; 
 			color: Color white).
 		
