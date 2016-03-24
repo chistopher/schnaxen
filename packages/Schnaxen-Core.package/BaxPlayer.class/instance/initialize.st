@@ -3,8 +3,9 @@ initialize
 	
 
 	super initialize.
-	self image: (BaxResources image: self fieldImageName size: self sizeInField * BaxApp magnification).
 	self 
+		fieldImageName: 'schnaxen';
+		image: (BaxResources image: self fieldImageName size: self sizeInField * BaxApp magnification); 
 		level: 1;
 		maxHP: 10;
 		currentHP: maxHP;

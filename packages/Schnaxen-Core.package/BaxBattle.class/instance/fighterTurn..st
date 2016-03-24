@@ -2,7 +2,7 @@ turns
 fighterTurn: aFighter
 
 	self currentActor: aFighter.
-	aFighter isDead ifTrue: [^self nextTurn].
+	aFighter isDead ifTrue: [^self endTurn].
 	
 	
 	self openMenu.

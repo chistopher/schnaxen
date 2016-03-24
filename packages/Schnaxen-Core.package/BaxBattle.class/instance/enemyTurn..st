@@ -4,13 +4,13 @@ enemyTurn: anEnemy
 	| target | 
 	
 	self currentActor: anEnemy.
-	anEnemy isDead ifTrue: [^self nextTurn].
+	anEnemy isDead ifTrue: [^self endTurn].
 
 	target := self livingFighter atRandom.
 	
 	anEnemy attack: target.
-
-	self addAlarm: #endTurn after: 500.
+	
+	self endTurn
 	
 
 
