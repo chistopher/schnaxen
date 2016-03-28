@@ -16,14 +16,4 @@ openMenu
 		add: ('skills' -> skills);
 		add: ('skip Turn' -> [self endTurn]).
 	self menuBar 
-		fromList: menuItems;
-		addTitle: currentActor baxName.
-
-
-	
-	
-	
-	
-	
-
-	
+		fromList: menuItems

@@ -1,4 +1,4 @@
-as yet unclassified
+building
 selectItem: aMorph
 		
 	self selectedItems add: aMorph.

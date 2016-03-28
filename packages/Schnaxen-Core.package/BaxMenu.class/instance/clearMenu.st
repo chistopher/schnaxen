@@ -1,10 +1,9 @@
-as yet unclassified
+commands
 clearMenu
 	
 	self 
 		removeAllMorphs;
 		level: 0;
-		items: nil;
 		levelMorphs: OrderedCollection new;
 		selectedItems: OrderedCollection new;
 		maxLevel: nil.

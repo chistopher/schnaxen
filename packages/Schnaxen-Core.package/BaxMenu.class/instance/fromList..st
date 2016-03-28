@@ -1,24 +1,23 @@
-as yet unclassified
+building
 fromList: anOrderedCollection
 	
-	| theFullAlignmentMorph |
 	
-	self items: anOrderedCollection.
-	self maxLevel: (self maxDepthOf: anOrderedCollection).
-	
-	theFullAlignmentMorph := ( self createMorphVertical: self vertical not )
-		layoutPolicy: ProportionalLayout new;
-		bounds: self bounds;
-		color: Color transparent.
+	self 
+		maxLevel: (self maxDepthOf: anOrderedCollection);
+		listDirection: (self listDirectionsVertical: self vertical not);
+		layoutPolicy: ProportionalLayout new.
 		
-	( 1to: self maxLevel ) do:[ :i |
-		theFullAlignmentMorph addMorphBack: ( ( self createMorphVertical: self vertical )
+	"create a Morph for every level"
+	self maxLevel timesRepeat: [ | levelMorph | 
+		levelMorph := Morph new 
+			listDirection: (self listDirectionsVertical: self vertical);
 			layoutPolicy: ProportionalLayout new;
-			color: Color transparent )
-		].
-	self layoutChildrenOfFirstLevel: theFullAlignmentMorph vertical: self vertical.
+			hResizing: #spaceFill;
+			vResizing: #spaceFill;
+			color: Color transparent.
+		self addMorphBack: levelMorph].
+	self layout: self submorphs max: self maxLevel vertical: self vertical not.
 	
-	self addMorph: theFullAlignmentMorph.
 	self addLevel: anOrderedCollection.
 
 	 

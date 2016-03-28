@@ -1,4 +1,4 @@
 helper
 isEmpty
 
-	^self items isNil.
+	^self level <= 0

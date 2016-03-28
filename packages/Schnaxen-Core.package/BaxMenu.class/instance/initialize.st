@@ -10,5 +10,5 @@ initialize
 		visibleItems: 5;
 		vertical: true.
 		
-	self keyBindings addAll: self thisKeyBindings.
+	self setKeyBindings.
 		

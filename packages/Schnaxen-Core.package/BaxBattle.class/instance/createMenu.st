@@ -7,5 +7,5 @@ createMenu
 		vertical: false;
 		extent: (self extent x @ (10* BaxApp magnification));
 		position: self bottomLeft - (0@self menuBar extent y).
-	self keyBindings addAll: self menuBar thisKeyBindings.
+	self keyBindings addAll: self menuBar horizontalKeyBindings.
 	

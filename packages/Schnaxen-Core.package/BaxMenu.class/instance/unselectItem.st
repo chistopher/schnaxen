@@ -1,4 +1,4 @@
-as yet unclassified
+building
 unselectItem
 	
 	self selectedItems last color: Color gray.

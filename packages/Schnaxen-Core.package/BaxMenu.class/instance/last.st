@@ -1,4 +1,4 @@
-as yet unclassified
+commands
 last
 	
 	| current |
@@ -6,10 +6,10 @@ last
 	self ifEmpty: [^self].
 	current := self selectedItems last.
 	
-	( current = self shownLevel submorphs first )
+	( current = self lastLevelMorph submorphs first )
 		ifFalse:[
 			self unselectItem.
-			self selectItem:  (self morphsOfCurrentLevel before: current)]
+			self selectItem:  (self lastLevelItems before: current)]
 		ifTrue:[
 			self shiftItemsBack.]
 	 

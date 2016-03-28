@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"items",
 		"selectedItems",
 		"levelMorphs",
 		"level",

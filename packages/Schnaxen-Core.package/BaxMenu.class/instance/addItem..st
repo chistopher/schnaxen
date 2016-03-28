@@ -1,4 +1,4 @@
-as yet unclassified
+building
 addItem: anAssociation
 	
 	| morph | 
@@ -13,6 +13,11 @@ addItem: anAssociation
 		borderColor: Color transparent;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.
+
+	morph 
+		setProperty: #itemName toValue: anAssociation key;
+		setProperty: #itemContent toValue: anAssociation value.
+
 	morph 
 		addMorph: (TextMorph new 
 			contents: anAssociation key; 

@@ -1,18 +1,14 @@
-as yet unclassified
+building
 addLevel: anOrderedCollection
 
-	| currentLevelSubmorphs |
-
+	"create structure for new level"
 	self level: self level +1.
 	self levelMorphs add: OrderedCollection new.
 	anOrderedCollection do: [:each| self addItem: each].
 	
-	currentLevelSubmorphs := self shownLevel.
-	( 1 to: ( ( self morphsOfCurrentLevel ) size min: self visibleItems  ) ) do:[ :i |
-		currentLevelSubmorphs addMorphBack: ( ( self morphsOfCurrentLevel ) at: i ).
-		].
-	
-	self layoutChildrenOf: currentLevelSubmorphs vertical: self vertical not.
-	
-	self selectItem: self morphsOfCurrentLevel first next: true.
+	"show the first n items of this newly ceated level"
+	(1 to: (self lastLevelItems size min: self visibleItems)) do: [ :index |
+		self lastLevelMorph addMorphBack: (self lastLevelItems at: index)].
+	self layout: self lastLevelMorph submorphs max: self visibleItems vertical: self vertical.
+	self selectItem: self lastLevelItems first.
 	

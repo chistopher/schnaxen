@@ -1,4 +1,0 @@
-keyBindings
-ownKeyBindings
-	
-	^ Dictionary new.

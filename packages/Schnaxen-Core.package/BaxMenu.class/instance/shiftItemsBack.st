@@ -1,4 +1,4 @@
-as yet unclassified
+building
 shiftItemsBack
 	
 	| current array |
@@ -6,16 +6,19 @@ shiftItemsBack
 	current := self selectedItems last.
 	self unselectItem.
 	
-	( current = self morphsOfCurrentLevel first )
+	(current = self lastLevelItems first)
 		ifFalse:[
-			array := self shownLevel submorphs asOrderedCollection.
+			array := self lastLevelMorph submorphs asOrderedCollection.
 			array removeLast.
-			array addFirst: ( self morphsOfCurrentLevel before: current ).
+			array addFirst: ( self lastLevelItems before: current ).
 			self selectItem: array first]
 		ifTrue:[
-			array := self morphsOfCurrentLevel
-				copyFrom: (self morphsOfCurrentLevel size - self visibleItems + 1 max: 1) to: self morphsOfCurrentLevel size.
+			array := self lastLevelItems last: (self visibleItems min: self lastLevelItems size).
 			self selectItem: array last].
-	self showItems: array on: self shownLevel.
+
+	self layout: array max: self visibleItems vertical: self vertical.
+	self lastLevelMorph 
+		removeAllMorphs;
+		addAllMorphs: array.
 
 	 
