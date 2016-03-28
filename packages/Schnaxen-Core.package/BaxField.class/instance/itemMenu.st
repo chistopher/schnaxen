@@ -1,7 +1,7 @@
 menu
 itemMenu
 	
-	| menu menuList num |
+	| menu menuList |
 	
 	menu := BaxMenu new.
 	menu 
@@ -12,15 +12,12 @@ itemMenu
 	
 	"create Menu for all items"
 	menuList := OrderedCollection new.
-	((baxens collect: [:bix| bix inventory]) concatenation) do: [ :each |
-		 menuList add: (each baxName -> [])].
-	menuList ifNotEmpty: [menu fromList: menuList].
+	self baxens do: [ :each | |items|
+		each inventory 
+			ifEmpty: [items := {(each baxName, ' has no items' -> [])} asOrderedCollection]
+			ifNotEmpty: [items := OrderedCollection new].
+		each inventory do: [:item| items add: (item baxName -> [self openSubWindow: (self itemViewFor: item)])].
+		menuList add: (each baxName -> items)].
 
-	"add some images in this menu"
-	num:= 1.
-	((baxens collect: [:bix| bix inventory]) concatenation) do: [ :each | |morph|
-		morph:=(menu levelMorphs at: menu level) at: num.
-		morph addMorphBack: each.
-		num := num +1].
-
-	^menu 
+	^menu fromList: menuList.
+ 

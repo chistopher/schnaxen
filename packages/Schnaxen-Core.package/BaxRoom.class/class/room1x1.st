@@ -48,7 +48,7 @@ room1x1
 
 	"changes the active bax"	
 	raum obstacles add: (BaxObject new
-		fieldImageName: 'link';
+		fieldImageName: 'oneway';
 		sizeInField: 5@5;
 		location: 30@25;
 		addInteraction: [:this|
