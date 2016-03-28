@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"requiredXP",
-		"inventory" ],
-	"name" : "BaxPlayer",
+		"price" ],
+	"name" : "BaxItem",
 	"pools" : [
 		 ],
-	"super" : "BaxNPC",
+	"super" : "BaxObject",
 	"type" : "normal" }

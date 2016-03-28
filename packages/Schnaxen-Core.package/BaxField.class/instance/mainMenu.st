@@ -12,8 +12,8 @@ mainMenu
 	menuItems := {
 		('resume' -> [mainMenu close]).
 		('characters' -> [self openSubWindow: self characterMenu]).
+		('items' -> [self openSubWindow: self itemMenu]).
 		('resolution' -> [self owner openSubWindow: self owner resolutionMenu. mainMenu close]).
-		('do nothing' -> []).
 		('exit' -> [self close])}.
 
 	^ mainMenu fromList: menuItems

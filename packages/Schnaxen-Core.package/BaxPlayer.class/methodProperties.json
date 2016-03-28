@@ -3,12 +3,13 @@
 		 },
 	"instance" : {
 		"gainXP:" : "CW 3/16/2016 16:02",
-		"initialize" : "CW 3/24/2016 12:07",
+		"initialize" : "cw 3/28/2016 14:17",
 		"interact" : "CW 3/21/2016 15:05",
 		"interactionArea" : "cw 3/12/2016 21:54",
+		"inventory" : "cw 3/27/2016 22:01",
+		"inventory:" : "cw 3/27/2016 22:01",
 		"levelUp" : "CW 3/16/2016 16:13",
 		"moveInDirection:" : "CW 3/21/2016 16:58",
-		"ownKeyBindings" : "CW 3/16/2016 16:22",
 		"requiredXP" : "CW 3/16/2016 16:00",
 		"requiredXP:" : "CW 3/16/2016 16:00",
 		"step" : "CW 3/9/2016 19:02" } }

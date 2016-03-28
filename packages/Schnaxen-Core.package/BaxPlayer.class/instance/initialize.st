@@ -4,7 +4,8 @@ initialize
 
 	super initialize.
 	self 
-		fieldImageName: 'schnaxen';
+		inventory: OrderedCollection new;
+		fieldImageName: 'bax';
 		image: (BaxResources image: self fieldImageName size: self sizeInField * BaxApp magnification); 
 		level: 1;
 		maxHP: 10;

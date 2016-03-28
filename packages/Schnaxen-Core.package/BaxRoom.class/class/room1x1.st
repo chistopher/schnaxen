@@ -35,12 +35,24 @@ room1x1
 		addSpeech:  {'Farewell fellow noob'. 'geh weg'};
 		addInteraction: [:this| this sayStuff]).
 		
-	raum obstacles add: (BaxNPC new
-		fieldImageName: 'bix';
-		sizeInField: 4@4;
-		location: 10@20;
-		addSpeech:  {'Arbeit, Arbeit?'};
-		addInteraction: [:this| this sayStuff]).
+	"item you can pick up"
+	1 to: 5 do: [ :i | raum obstacles add: (BaxItem new
+		baxName: 'veryGr8ItemName', i;
+		fieldImageName: 'bpmn_gatter';
+		sizeInField: 1@1;
+		location: (10*i)@20;
+		addInteraction: [:this| 
+			this owner bax inventory add: this.
+			this owner activeRoom obstacles remove: this. 
+			this owner removeMorph: this])].
+
+	"changes the active bax"	
+	raum obstacles add: (BaxObject new
+		fieldImageName: 'link';
+		sizeInField: 5@5;
+		location: 30@25;
+		addInteraction: [:this|
+			this owner changeActiveBaxTo: (this owner baxens after: this owner bax ifAbsent: [this owner baxens first])]).
 		
 
 	^raum
