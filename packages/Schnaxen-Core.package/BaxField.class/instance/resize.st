@@ -1,10 +1,17 @@
 as yet unclassified
 resize
 
-	BaxRoom clearRoomCache. "coz rooms are just 4 one resolution"	
-	self 
-		bounds: BaxApp useableBounds;
-		changeRoomTo: self roomPos.
-		
+	self bounds: BaxApp useableBounds.
+	self setBackground: self activeRoom imageName.
+	
+	"resize all obstacles"
+	self activeRoom obstacles do: [:each| 
+		self reloadImageOf: each.
+		self reposition: each].
+	
+	self  "resize player"
+		reloadImageOf: self bax;
+		reposition: self bax.
+
 	"they will be created next time they are needed"
-	self baxens do: [:each| each fightMorph: nil]
+	self saveGame team do: [:each| each fightMorph: nil]

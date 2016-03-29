@@ -10,7 +10,7 @@
 		"activeRoom",
 		"roomPos",
 		"background",
-		"baxens" ],
+		"saveGame" ],
 	"name" : "BaxField",
 	"pools" : [
 		 ],

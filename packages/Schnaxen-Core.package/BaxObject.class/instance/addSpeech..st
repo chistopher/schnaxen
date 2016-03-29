@@ -6,7 +6,7 @@ addSpeech: anOrderedCollection
 	self speechBubble: (ImageMorph new
 		image: (BaxResources image: 'speechbubble' size: 6@6 * BaxApp magnification)).	
 	self speechBubble 
-		addMorph: TextMorph new;
+		addMorph: (TextMorph new contents: '');
 		visible: false.
 	self addMorph: self speechBubble.
 	

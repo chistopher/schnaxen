@@ -6,8 +6,8 @@ initialize
 		bounds: BaxApp useableBounds;
 		background: (ImageMorph new position: self position);
 		addMorph: self background;
-		createBaxens;
-		bax: (self baxens first position: self position; location: 0@0);
+		saveGame: BaxSaveGame new;
+		bax: (self saveGame team first position: self position; location: 0@0);
 		addMorph: self bax;
 		enterRoomAt: (1@1).
 	

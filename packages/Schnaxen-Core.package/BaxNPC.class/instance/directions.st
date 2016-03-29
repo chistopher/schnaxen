@@ -1,4 +1,4 @@
-as yet unclassified
+movement
 directions
 
 	"in WASD order"

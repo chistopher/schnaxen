@@ -11,13 +11,13 @@ characterMenu
 		color: Color yellow.
 		
 	menuList := OrderedCollection new.
-	baxens do: [ :each |
+	self saveGame team do: [ :each |
 		 menuList add: (each baxName -> [])].
 	menu fromList: menuList.	
 		
 		
 	.num := 1.
-	baxens do: [ :each | | temp menuItem |
+	self saveGame team do: [ :each | | temp menuItem |
 	
 		menuItem := (menu levelMorphs at: 1) at: num.
 		menuItem listCentering: #justified.

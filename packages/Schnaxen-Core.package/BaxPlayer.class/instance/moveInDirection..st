@@ -11,7 +11,7 @@ moveInDirection: aVector
 			newRaumPos := self owner roomPos + aVector.
 			self direction:  aVector.
 			self owner reloadImageOf: self.
-			(BaxRoom roomExists: newRaumPos) ifTrue: [
+			(self owner saveGame roomExists: newRaumPos) ifTrue: [
 				self owner changeRoomTo: newRaumPos.
 				self location: ((BaxApp minAppSize - self sizeInField) *self direction negated + self location).
 				self owner reposition: self "reposition me in my field"]].

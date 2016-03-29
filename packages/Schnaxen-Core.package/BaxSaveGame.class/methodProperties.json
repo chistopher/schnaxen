@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clearRoomCache" : "CW 3/29/2016 15:17",
+		"createBaxens" : "CW 3/29/2016 15:35",
+		"initialize" : "CW 3/29/2016 15:34",
+		"roomAt:" : "CW 3/29/2016 15:31",
+		"roomCache" : "CW 3/29/2016 15:00",
+		"roomCache:" : "CW 3/29/2016 15:00",
+		"roomExists:" : "CW 3/29/2016 15:00",
+		"team" : "CW 3/29/2016 15:34",
+		"team:" : "CW 3/29/2016 15:34" } }

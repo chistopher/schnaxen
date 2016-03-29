@@ -3,7 +3,7 @@ ownKeyBindings
 	
 	^ Dictionary newFrom: {
 	$v		-> 	[self startTestBattle].
-	$z		-> 	[self baxens do: [:each| each gainXP: 10]].
+	$z		-> 	[self saveGame team do: [:each| each gainXP: 10]].
 		
 	$e 		-> 	[self bax interact].
 	$w 		-> 	[self bax moveInDirection: (self bax directions at: 1)].

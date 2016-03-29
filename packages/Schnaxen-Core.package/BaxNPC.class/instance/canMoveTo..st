@@ -1,7 +1,11 @@
-as yet unclassified
+movement
 canMoveTo: aRect
+	
+	| obstacles |
+	
+	obstacles := self owner activeRoom obstacles, {self owner bax}.
 
-	^self owner activeRoom obstacles noneSatisfy: [ :submorph |
+	^obstacles noneSatisfy: [ :submorph |
 		submorph passable not and: [
-			(submorph = self) not and: [
-				submorph bounds  intersects: aRect]]]
+		(submorph = self) not and: [
+		submorph bounds  intersects: aRect]]]

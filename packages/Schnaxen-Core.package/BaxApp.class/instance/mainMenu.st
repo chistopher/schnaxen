@@ -10,8 +10,8 @@ mainMenu
 
 	menuItems := OrderedCollection new.
 	menuItems 
-		add: ('start game' -> [self openSubWindow: self newField]);
-		add: ('resolution' -> [self openSubWindow: self resolutionMenu]);
+		add: ('start game' -> [mainMenu close. self openSubWindow: self newField]);
+		add: ('resolution' -> [mainMenu close. self openSubWindow: self resolutionMenu]);
 		add: ('do nothing' -> []);
 		add: ('scroll down' -> []);
 		add: ('exit' -> [self delete]).

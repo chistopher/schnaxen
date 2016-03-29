@@ -6,7 +6,7 @@ changeToBattleVs: aCollection
 	battle := BaxBattle new. 
 	battle
 		bounds: self bounds; 
-		baxens: self baxens;
+		baxens: self saveGame team;
 		enemies: aCollection.
 	
 	self openSubWindow: battle.

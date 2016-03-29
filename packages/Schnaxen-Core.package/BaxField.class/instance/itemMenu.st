@@ -12,7 +12,7 @@ itemMenu
 	
 	"create Menu for all items"
 	menuList := OrderedCollection new.
-	self baxens do: [ :each | |items|
+	self saveGame team do: [ :each | |items|
 		each inventory 
 			ifEmpty: [items := {(each baxName, ' has no items' -> [])} asOrderedCollection]
 			ifNotEmpty: [items := OrderedCollection new].

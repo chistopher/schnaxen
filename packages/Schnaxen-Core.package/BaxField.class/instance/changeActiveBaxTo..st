@@ -1,7 +1,7 @@
 baxens
 changeActiveBaxTo: aBaxPlayer
 
-	(self baxens includes: aBaxPlayer) ifFalse: [^ self]. "the new player must be a baxen"
+	(self saveGame team includes: aBaxPlayer) ifFalse: [^ self]. "the new player must be a baxen"
 	
 	aBaxPlayer "place new bax there were the last bixen was"
 		location: self bax location;

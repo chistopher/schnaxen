@@ -3,8 +3,7 @@ enterRoomAt: aPosition
 
 	| room | 
 	
-	room := BaxRoom roomAt: aPosition.
-	room obstacles add: self bax.
+	room := self saveGame roomAt: aPosition.
 	"scale all obstacles including player and set their position"
 	room obstacles do: [:each| 
 		self reloadImageOf: each.
@@ -14,5 +13,7 @@ enterRoomAt: aPosition
 		addAllMorphsFront: room obstacles reversed;
 		activeRoom: room;
 		roomPos: aPosition.
+		
+	
 	
 

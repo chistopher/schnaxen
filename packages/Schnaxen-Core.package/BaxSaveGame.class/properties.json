@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"obstacles",
-		"imageName" ],
-	"name" : "BaxRoom",
+		"roomCache",
+		"team" ],
+	"name" : "BaxSaveGame",
 	"pools" : [
 		 ],
 	"super" : "Object",
