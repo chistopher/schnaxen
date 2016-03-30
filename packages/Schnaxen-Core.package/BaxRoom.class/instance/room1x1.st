@@ -39,7 +39,7 @@ room1x1
 		sizeInField: 1@1;
 		location: (10*i)@20;
 		addInteraction: [:this| 
-			this owner bax inventory add: this.
+			this owner bax takeItem: this.
 			this owner activeRoom obstacles remove: this. 
 			this owner removeMorph: this])].
 

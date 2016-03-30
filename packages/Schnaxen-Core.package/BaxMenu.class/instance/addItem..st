@@ -6,11 +6,11 @@ addItem: anAssociation
 	morph := Morph new
 		listDirection: #leftToRight;
 		color: Color gray;
-		borderWidth: 1 * BaxApp magnification;
+		borderWidth: (self extent x min: self extent y) / 40; "need a gr8 computation here based on extent, visibleItems, maxLevel and vertical"
+		borderColor: Color transparent;
 		layoutPolicy: TableLayout new;
 		wrapCentering: #center;
 		listCentering: #center;
-		borderColor: Color transparent;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.
 

@@ -6,9 +6,6 @@ changeActiveBaxTo: aBaxPlayer
 	aBaxPlayer "place new bax there were the last bixen was"
 		location: self bax location;
 		direction: self bax direction.
-	self activeRoom obstacles "switch baxen for active room"
-		remove: self bax;
-		add: aBaxPlayer.
 	self "swith baxen for me"
 		removeMorph: self bax;
 		addMorph: aBaxPlayer;

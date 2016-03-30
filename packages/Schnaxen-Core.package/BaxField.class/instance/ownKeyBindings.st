@@ -2,6 +2,7 @@ keyBindings
 ownKeyBindings
 	
 	^ Dictionary newFrom: {
+	$q		-> 	[self openSubWindow: self inGameMenu].
 	$v		-> 	[self startTestBattle].
 	$z		-> 	[self saveGame team do: [:each| each gainXP: 10]].
 		
