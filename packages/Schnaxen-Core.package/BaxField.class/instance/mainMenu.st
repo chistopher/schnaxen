@@ -14,6 +14,6 @@ mainMenu
 		('characters' -> [self openSubWindow: self characterMenu]).
 		('items' -> [self openSubWindow: self itemMenu]).
 		('resolution' -> [self owner openSubWindow: self owner resolutionMenu. mainMenu close]).
-		('exit' -> [self close])}.
+		('exit' -> [self owner openSubWindow: self owner mainMenu. self close])}.
 
 	^ mainMenu fromList: menuItems
