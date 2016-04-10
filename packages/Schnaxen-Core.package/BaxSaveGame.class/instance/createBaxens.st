@@ -6,7 +6,8 @@ createBaxens
 	self team add: (BaxPlayer new 
 		baxName: 'bax'; 
 		fieldImageName: 'bax';
-		fightImageName: 'bax-1x0').
+		fightImageName: 'bax-1x0';
+		location: 0@0).
 	self team add: (BaxPlayer new 
 		baxName: 'schnaxen'; 
 		fieldImageName: 'schnaxen';

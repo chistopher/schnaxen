@@ -23,14 +23,16 @@ room1x1
 		fieldImageName: 'mauer_vorn';
 		sizeInField: 4@4;
 		location: 24@10;
-		addInteraction: [:this| this owner activeRoom obstacles remove: this. this delete]).
+		addInteraction: #disappear).
 		
 	self obstacles add: (BaxNPC new
+		baxName: 'levelPunk';
 		fieldImageName: 'punk';
 		sizeInField: 2@2;
 		location: 40@14;
-		addSpeech:  {'Farewell fellow noob'. 'geh weg'};
-		addInteraction: [:this| this sayStuff]).
+		addSpeech:  {'Farewell fellow adventurer'. 'finish this little talk with me', Character cr, 'and ur team gets a lvlUp'};
+		addInteraction: #speak;
+		actionFlag: #spokeToPunk).
 		
 	"item you can pick up"
 	1 to: 5 do: [ :i | self obstacles add: (BaxItem new
@@ -38,15 +40,11 @@ room1x1
 		fieldImageName: 'bpmn_gatter';
 		sizeInField: 1@1;
 		location: (10*i)@20;
-		addInteraction: [:this| 
-			this owner bax takeItem: this.
-			this owner activeRoom obstacles remove: this. 
-			this owner removeMorph: this])].
+		addInteraction: #pickUp)].
 
 	"changes the active bax"	
 	self obstacles add: (BaxObject new
 		fieldImageName: 'oneway';
 		sizeInField: 5@5;
 		location: 30@25;
-		addInteraction: [:this|
-			this owner changeActiveBaxTo: (this owner saveGame team after: this owner bax ifAbsent: [this owner saveGame team first])]).
+		addInteraction: #changePlayer).

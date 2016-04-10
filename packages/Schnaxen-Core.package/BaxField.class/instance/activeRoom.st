@@ -1,4 +1,4 @@
-accessing
+room management
 activeRoom
 
-	^ activeRoom
+	^ self saveGame roomAt: self saveGame roomPos

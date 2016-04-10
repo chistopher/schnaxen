@@ -1,8 +1,7 @@
 interaction
 addSpeech: anOrderedCollection
 
-	self speechArray: (anOrderedCollection collect: [:string| Text fromString: string]).
-	self speechPointer: 0.
+	self changeDialog: anOrderedCollection.
 	self speechBubble: (ImageMorph new
 		image: (BaxResources image: 'speechbubble' size: 6@6 * BaxApp magnification)).	
 	self speechBubble 

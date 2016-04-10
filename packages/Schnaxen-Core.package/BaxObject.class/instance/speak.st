@@ -1,9 +1,12 @@
-interaction
-sayStuff
-	
+actions
+speak
+
 	(self speechPointer >= self speechArray size) 
 		ifTrue: [
-			self resetDialog]
+			self resetDialog.
+			self actionFlag ifNotNil: [
+				self owner saveGame activateFlag: self actionFlag.
+				self actionFlag: nil]]
 		ifFalse: [
 			self speechPointer: self speechPointer +1.
 			self speechBubble submorphs first 
@@ -12,4 +15,4 @@ sayStuff
 			self speechBubble 
 				center: self center;
 				bottom: self top;
-				visible: true]
+				visible: true].

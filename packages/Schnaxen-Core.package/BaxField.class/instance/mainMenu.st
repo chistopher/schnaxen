@@ -12,6 +12,7 @@ mainMenu
 
 	menuItems := {
 		('resume' -> [mainMenu close]).
+		('save' -> [self saveSaveGame. mainMenu close]).
 		('resolution' -> [self owner openSubWindow: self owner resolutionMenu. mainMenu close]).
 		('exit' -> [self owner openSubWindow: self owner mainMenu. self close])}.
 

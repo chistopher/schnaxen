@@ -7,8 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"bax",
-		"activeRoom",
-		"roomPos",
 		"background",
 		"saveGame" ],
 	"name" : "BaxField",

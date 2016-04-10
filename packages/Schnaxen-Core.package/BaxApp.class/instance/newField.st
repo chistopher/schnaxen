@@ -1,7 +1,7 @@
 menu
 newField
 
-	^BaxField new
+	^BaxField new loadSaveGame: BaxSaveGame new
 	
 
  	

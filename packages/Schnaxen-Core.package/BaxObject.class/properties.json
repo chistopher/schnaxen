@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"block",
+		"action",
+		"actionArgument",
+		"actionFlag",
 		"baxName",
 		"location",
 		"sizeInField",

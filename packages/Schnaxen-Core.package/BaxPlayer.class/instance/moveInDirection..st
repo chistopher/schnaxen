@@ -8,7 +8,7 @@ moveInDirection: aVector
 		ifTrue: [
 			super moveInDirection: aVector]
 		ifFalse: [ |newRaumPos|
-			newRaumPos := self owner roomPos + aVector.
+			newRaumPos := self owner saveGame roomPos + aVector.
 			self direction:  aVector.
 			self owner reloadImageOf: self.
 			(self owner saveGame roomExists: newRaumPos) ifTrue: [

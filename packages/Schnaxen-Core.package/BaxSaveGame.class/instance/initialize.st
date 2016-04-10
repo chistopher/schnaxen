@@ -2,4 +2,7 @@ initialization
 initialize 
 				
 	super initialize.
-	self createBaxens
+	self roomCache: Dictionary new.
+	self roomPos: 1@1.
+	self createBaxens.
+	self createProgressFlags

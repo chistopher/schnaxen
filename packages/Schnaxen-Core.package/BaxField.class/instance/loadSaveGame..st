@@ -1,4 +1,4 @@
-initialization
+save/load
 loadSaveGame: aBaxSaveGame
 
 	self 
@@ -8,6 +8,8 @@ loadSaveGame: aBaxSaveGame
 		
 	self 
 		saveGame: aBaxSaveGame;
-		bax: (self saveGame team first position: self position; location: 0@0);
+		bax: self saveGame team first;
 		addMorph: self bax;
-		enterRoomAt: (1@1).
+		reposition: self bax;
+		reloadImageOf: self bax;
+		enterRoomAt: aBaxSaveGame roomPos.

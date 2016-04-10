@@ -1,5 +1,5 @@
 interaction
-addInteraction: aBlock
+addInteraction: aSelector
 
-	self block: aBlock.
+	self action: aSelector.
 	self interactable: true.
