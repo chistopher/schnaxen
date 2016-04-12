@@ -2,7 +2,7 @@ fighting
 levelUp
 
 	self 
-		requiredXP: self requiredXP * 0.2 + self requiredXP;
+		requiredXP: self requiredXP * 1.2;
 		level: self level + 1;
 		maxHP: self maxHP + self level atRandom;
 		currentHP: self maxHP;

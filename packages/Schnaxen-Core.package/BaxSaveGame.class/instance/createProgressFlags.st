@@ -1,8 +1,9 @@
-story
+story-meta
 createProgressFlags
+"specifies the flags needed to cause a specific action."
 
 	self progressFlags: (Dictionary newFrom: {
-		#progress1				->	{#flag1 . #flag2}.
+		#foundHidden378			->	{#entered378x378 . #beatTheGiantBax}.
 		#reveiveLevelFromPunk	-> 	{#spokeToPunk}.
-		#progress3 				-> 	{#flag3}.
+		#beatTheGiantBax			-> 	{#beatTheGiantBax}.
 	})

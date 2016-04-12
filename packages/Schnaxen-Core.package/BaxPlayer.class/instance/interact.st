@@ -5,4 +5,4 @@ interact
 	self owner activeRoom obstacles asArray do: [:each| 
 		(self interactionArea intersects: each bounds) ifTrue: [
 			each interactable ifTrue: [
-				each doStuff "just do it urself"]]]
+				each performAction "just do it urself"]]]

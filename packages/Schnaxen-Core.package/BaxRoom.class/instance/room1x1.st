@@ -32,7 +32,7 @@ room1x1
 		location: 40@14;
 		addSpeech:  {'Farewell fellow adventurer'. 'finish this little talk with me', Character cr, 'and ur team gets a lvlUp'};
 		addInteraction: #speak;
-		actionFlag: #spokeToPunk).
+		speechFlag: #spokeToPunk).
 		
 	"item you can pick up"
 	1 to: 5 do: [ :i | self obstacles add: (BaxItem new

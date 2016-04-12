@@ -9,7 +9,7 @@ room1x2
 	self obstacles add: (BaxNPC new fieldImageName: 'schnaxen'; sizeInField: 4@4; location: 20@16;
 		addSpeech: {'Arbeit, Arbeit?'. 'Noch mehr Arbeit?'. 'Ich geh dann mal?'. 'Riiichtig!'};
 		addInteraction: #speak).
-	self obstacles add: (BaxNPC new fieldImageName: 'schnaxen'; sizeInField: 10@10; location: 50@15;
+	self obstacles add: (BaxEnemy new fieldImageName: 'schnaxen'; sizeInField: 10@10; location: 50@15;
 		level: 1;
 		maxHP: 20;
 		currentHP: 20;
@@ -18,4 +18,5 @@ room1x2
 		baxName: 'GigaBax'; 
 		fightImageName: 'schnaxen0x1'; 
 		fightImageSize: 20@20;
-		addInteraction: #fight).
+		addInteraction: #fight;
+		defeatFlag: #beatTheGiantBax).

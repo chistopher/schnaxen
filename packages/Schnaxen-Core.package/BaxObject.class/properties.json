@@ -17,7 +17,8 @@
 		"passable",
 		"speechArray",
 		"speechPointer",
-		"speechBubble" ],
+		"speechBubble",
+		"speechFlag" ],
 	"name" : "BaxObject",
 	"pools" : [
 		 ],

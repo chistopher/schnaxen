@@ -1,4 +1,4 @@
-story
+story-meta
 activateFlag: aSymbol
 
 	| affectedActions |
@@ -6,5 +6,5 @@ activateFlag: aSymbol
 	affectedActions := self progressFlags select: [:each| 
 		each value includes: aSymbol].
 	affectedActions associationsDo: [:each| 
-		each value: (each value copyWithout: aSymbol).
-		each value ifEmpty: [self perform: each key]]
+		self progressFlags at: each key put: (each value copyWithout: aSymbol).
+		(self progressFlags at: each key) ifEmpty: [self perform: each key]]

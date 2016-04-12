@@ -1,5 +1,7 @@
 rooms
 room378x378
+	
+	self enterFlag: #entered378x378.
 
 	"Mauer oben"
 	(0 to: 15) do: [:index|

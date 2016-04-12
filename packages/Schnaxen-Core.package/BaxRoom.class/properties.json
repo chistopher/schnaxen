@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"obstacles",
-		"imageName" ],
+		"imageName",
+		"enterFlag" ],
 	"name" : "BaxRoom",
 	"pools" : [
 		 ],
