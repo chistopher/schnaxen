@@ -9,7 +9,7 @@ inGameMenu
 		topRight: self topRight;
 		color: Color white;
 		visibleItems: 5.
-	menu keyBindings add: ($q -> [menu close]).
+	menu keyBindings add: (#start -> [menu close]).
 
 	menuItems := {
 		('characters' -> [self openSubWindow: self characterMenu]).

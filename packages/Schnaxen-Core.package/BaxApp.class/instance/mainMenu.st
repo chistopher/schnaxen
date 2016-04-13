@@ -18,7 +18,7 @@ mainMenu
 			field loadSaveGame: rr next.
 			rr close.
 			mainMenu close. self openSubWindow: field]);
-		add: ('scroll down' -> []);
+		add: ('keyMappings' -> [self openSubWindow: BaxKeyMapMenu new]);
 		add: ('exit' -> [self delete]).
 
 	^ mainMenu fromList: menuItems

@@ -1,17 +1,17 @@
 {
 	"category" : "Schnaxen-Core",
 	"classinstvars" : [
-		"appSize",
-		"useableBounds",
-		"magnification",
-		"keyMap" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"background" ],
-	"name" : "BaxApp",
+		"bax",
+		"background",
+		"saveGame",
+		"requestedAssociation" ],
+	"name" : "BaxKeyMapMenu",
 	"pools" : [
 		 ],
-	"super" : "BaxWindow",
+	"super" : "BaxMenu",
 	"type" : "normal" }

@@ -2,8 +2,8 @@ keyBindings
 verticalKeyBindings
 	
 	^Dictionary newFrom: {
-		$w		-> 	[self last].
-		$a		-> 	[self dropLevel].
-		$s		-> 	[self next].
-		$d		-> 	[self expandItem].
-		$e		-> 	[self chooseItem]}
+		#up	-> 	[self last].
+		#down	-> 	[self next].
+		#left	-> 	[self dropLevel].
+		#right	-> 	[self expandItem].
+		#a		-> 	[self chooseItem]}

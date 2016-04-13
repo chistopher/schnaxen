@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"background" : "cw 4/13/2016 12:22",
+		"background:" : "cw 4/13/2016 12:22",
+		"bax" : "cw 4/13/2016 12:22",
+		"bax:" : "cw 4/13/2016 12:22",
+		"createMenu" : "cw 4/13/2016 14:22",
+		"getFocus" : "cw 4/12/2016 22:05",
+		"handlesKeyboard:" : "cw 4/12/2016 22:05",
+		"initialize" : "cw 4/12/2016 22:16",
+		"keyStroke:" : "cw 4/13/2016 13:38",
+		"requestInputFor:" : "cw 4/13/2016 13:27",
+		"requestedAssociation" : "cw 4/13/2016 13:27",
+		"requestedAssociation:" : "cw 4/13/2016 13:27",
+		"saveGame" : "cw 4/13/2016 12:22",
+		"saveGame:" : "cw 4/13/2016 12:22" } }

@@ -2,13 +2,12 @@ keyBindings
 ownKeyBindings
 	
 	^ Dictionary newFrom: {
-	$q		-> 	[self openSubWindow: self inGameMenu].
-	$v		-> 	[self startTestBattle].
-	$z		-> 	[self saveGame team do: [:each| each gainXP: 10]].
-		
-	$e 		-> 	[self bax interact].
-	$w 		-> 	[self bax moveInDirection: (self bax directions at: 1)].
-	$a 		-> 	[self bax moveInDirection: (self bax directions at: 2)].
-	$s 		->	[self bax moveInDirection: (self bax directions at: 3)].
-	$d 		->	[self bax moveInDirection: (self bax directions at: 4)]
+	#start		-> 	[self openSubWindow: self inGameMenu].
+	#select 	->	[self openSubWindow: self mainMenu].
+	#b			-> 	[self saveGame team do: [:each| each gainXP: 10]].
+	#a 			-> 	[self bax interact].
+	#up 		-> 	[self bax moveInDirection: (self bax directions at: 1)].
+	#left 		-> 	[self bax moveInDirection: (self bax directions at: 2)].
+	#down 		->	[self bax moveInDirection: (self bax directions at: 3)].
+	#right 		->	[self bax moveInDirection: (self bax directions at: 4)]
 	}

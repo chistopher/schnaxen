@@ -9,6 +9,7 @@ mainMenu
 		topRight: self topRight;
 		color: Color white;
 		visibleItems: 5.
+	mainMenu keyBindings add: (#select -> [mainMenu close]).
 
 	menuItems := {
 		('resume' -> [mainMenu close]).

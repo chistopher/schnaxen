@@ -1,9 +1,10 @@
-as yet unclassified
+event handling
 keyStroke: anEvent
 
-	(self currentFrontWindow keyBindings 
-		at: anEvent keyCharacter 
-		ifAbsent: []) value.
+	BaxApp keyMap 
+		at: anEvent keyCharacter
+		ifPresent: [ :mappedKey | 
+			(self currentFrontWindow keyBindings at: mappedKey ifAbsent: []) value].
 	
 			
 
