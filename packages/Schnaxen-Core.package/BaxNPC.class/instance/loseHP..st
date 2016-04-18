@@ -12,4 +12,4 @@ loseHP: aNumber
 	
 	self isDead ifTrue: [ | oldCenter | 
 		oldCenter := self fightMorph center.
-		self fightMorph image: (BaxResources image: 'rip' size: 50@50); center: oldCenter]
+		self fightMorph image: (BaxResources image: 'rip' size: self fightImageSize * BaxApp magnification); center: oldCenter]

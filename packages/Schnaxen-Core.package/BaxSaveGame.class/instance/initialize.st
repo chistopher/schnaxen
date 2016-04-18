@@ -3,6 +3,6 @@ initialize
 				
 	super initialize.
 	self roomCache: Dictionary new.
-	self roomPos: 1@1.
+	self roomPos: 50@50.
 	self createBaxens.
 	self createProgressFlags

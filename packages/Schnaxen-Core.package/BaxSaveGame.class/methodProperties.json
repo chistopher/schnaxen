@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"activateFlag:" : "cw 4/12/2016 18:07",
+		"activateFlag:" : "cw 4/18/2016 22:18",
 		"beatTheGiantBax" : "cw 4/12/2016 17:41",
 		"clearRoomCache" : "CW 3/29/2016 15:17",
 		"createBaxens" : "CW 4/10/2016 19:18",
-		"createProgressFlags" : "cw 4/12/2016 18:48",
+		"createProgressFlags" : "cw 4/18/2016 22:13",
+		"field" : "cw 4/18/2016 22:22",
 		"foundHidden378" : "cw 4/12/2016 17:58",
-		"initialize" : "CW 4/10/2016 20:04",
+		"initialize" : "cw 4/18/2016 20:40",
 		"progressFlags" : "CW 4/10/2016 20:03",
 		"progressFlags:" : "CW 4/10/2016 20:03",
 		"reveiveLevelFromPunk" : "CW 4/10/2016 20:57",
@@ -18,5 +19,6 @@
 		"roomExists:" : "CW 3/29/2016 15:00",
 		"roomPos" : "CW 4/10/2016 19:05",
 		"roomPos:" : "CW 4/10/2016 19:05",
+		"startRoomSpawnPortal" : "cw 4/18/2016 22:25",
 		"team" : "CW 3/29/2016 15:34",
 		"team:" : "CW 3/29/2016 15:34" } }

@@ -6,4 +6,7 @@ createProgressFlags
 		#foundHidden378			->	{#entered378x378}.
 		#reveiveLevelFromPunk	-> 	{#spokeToPunk}.
 		#beatTheGiantBax			-> 	{#beatTheGiantBax}.
+
+		#startRoomSpawnPortal 	-> 	{#startRoomTorch1lit. #startRoomTorch2lit. #startRoomTorch3lit. #startRoomTorch4lit.}.
+		
 	})
