@@ -1,8 +1,15 @@
 rooms
-room50x50
+room1000x1001
 	
 	self imageName: 'startroom'.
 
+	0 to: 6 do: [:index|
+		self obstacles add: (BaxObject new fieldImageName: 'mauer_vorn'; sizeInField: 4@4; location: 4*index@0)].
+	7 to: 8 do: [:index|
+		self obstacles add: (BaxObject new fieldImageName: 'mauer_vorn'; sizeInField: 4@4; location: 4*index@0; baxName: 'gateWall')].	
+	9 to: 15 do: [:index|
+		self obstacles add: (BaxObject new fieldImageName: 'mauer_vorn'; sizeInField: 4@4; location: 4*index@0)].
+	
 	
 	1 to: 3 do: [ :i |
 		self obstacles add: (BaxEnemy new location: (i*5+20)@15; 

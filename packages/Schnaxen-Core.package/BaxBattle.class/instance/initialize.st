@@ -7,6 +7,6 @@ initialize
 	self createMenu.
 		
 	
-	
+	self keyBindings removeKey: #b.
 	enemies := OrderedCollection new.
 	baxens := OrderedCollection new.

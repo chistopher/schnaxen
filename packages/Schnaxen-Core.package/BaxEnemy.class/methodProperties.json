@@ -7,4 +7,6 @@
 	"instance" : {
 		"defeatFlag" : "cw 4/12/2016 17:31",
 		"defeatFlag:" : "cw 4/12/2016 17:31",
-		"initialize" : "CW 3/18/2016 22:01" } }
+		"deleteAfterDefeat" : "cw 4/19/2016 18:43",
+		"deleteAfterDefeat:" : "cw 4/19/2016 18:43",
+		"initialize" : "cw 4/19/2016 18:43" } }
